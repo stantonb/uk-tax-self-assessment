@@ -43,7 +43,7 @@ Sideways relief is not unlimited. Key restrictions:
 
 - **Uncommercial trades**: if the trade is not conducted on a commercial basis with a reasonable expectation of profit, sideways relief may be denied. HMRC will examine whether the business is genuinely a trade or a hobby.
 - **Cap on sideways relief**: losses exceeding the sideways relief cap cannot be set against other income unless the trade is conducted on a commercial basis. This is often called the "hobby loss" restriction. Check `${CLAUDE_PLUGIN_ROOT}/references/2024-25-rates.md` for the current cap amount.
-- **Cash basis restriction**: if the business uses the cash basis of accounting, trading losses can generally only be carried forward — sideways relief and carry back are not available. Consider opting out of cash basis in a loss-making year if sideways relief would be beneficial.
+- **Cash basis restriction** (critical for new businesses): if the business uses the cash basis of accounting, trading losses can generally **only be carried forward** — sideways relief and carry back are **not available**. Most new small businesses default to cash basis. If the user wants to claim sideways relief against employment income, they must opt for accruals basis accounting. This is a common pitfall — flag it early.
 
 ## Hobby vs Trade Test
 

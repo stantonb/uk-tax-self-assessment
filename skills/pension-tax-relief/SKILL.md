@@ -67,7 +67,7 @@ The lifetime allowance was abolished from 6 April 2024. In its place, new lump s
 Pension contributions reduce **adjusted net income (ANI)**, which is the key figure for:
 
 - **High Income Child Benefit Charge** — Reducing ANI below the HICBC threshold eliminates or reduces the charge.
-- **Personal allowance tapering** — ANI above the threshold triggers loss of £1 of personal allowance for every £2 over. Pension contributions can restore it.
+- **Personal allowance tapering (the 60% trap)** — ANI above £100,000 triggers loss of £1 of personal allowance for every £2 over, creating an effective 60% marginal tax rate in the £100,000–£125,140 band. Pension contributions can restore the full personal allowance. For someone earning £112,000, an additional £12,000 in pension contributions brings ANI to £100,000, restoring £6,000 of personal allowance — the effective relief on that £12,000 contribution is dramatically higher than the headline rate.
 - **Tax band management** — Contributions can bring income below the higher or additional rate threshold.
 
 This makes pension contributions one of the most effective tax planning tools available through Self Assessment.

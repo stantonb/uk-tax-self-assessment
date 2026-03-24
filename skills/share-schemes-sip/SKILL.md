@@ -26,17 +26,19 @@ Refer to `${CLAUDE_PLUGIN_ROOT}/references/2024-25-rates.md` for all current ann
 
 Shares must be held in the SIP trust. Dividends received on SIP shares can be reinvested as **dividend shares** (tax-free if held for the required period) or taken as cash (taxed as dividend income).
 
-### On Disposal — The 5-Year Rule
+### On Disposal — The Critical 3-Tier Holding Period
 
-The tax treatment on withdrawal depends on how long the shares have been held:
+This is the most important part of SIP tax treatment. The holding period determines how much Income Tax and NI you pay on withdrawal. Get this wrong and the tax bill can be a nasty surprise.
 
 | Holding period | Income Tax and NI liability |
 |---|---|
-| **0 to 3 years** | Full market value at withdrawal is taxed as employment income, subject to Income Tax and NI |
-| **3 to 5 years** | The lower of market value at award or market value at withdrawal is taxed |
-| **5 years or more** | **No Income Tax or NI** — full tax relief achieved |
+| **Less than 3 years** | Full market value at withdrawal is taxed as employment income, subject to Income Tax and NI |
+| **3 to 5 years** | The **lower of** market value at award **or** market value at withdrawal is taxed as employment income. This is the partial relief tier — you pay tax but on a potentially reduced amount |
+| **5 years or more** | **No Income Tax or NI at all** — complete tax relief |
 
-After withdrawal, shares enter your personal ownership. Any subsequent gain from that point is subject to **Capital Gains Tax** on disposal. The CGT base cost is the market value on the date of withdrawal from the SIP trust. Refer to the rates file for CGT rates and the annual exempt amount.
+**The 3-to-5-year trap**: Many employees withdraw SIP shares between 3 and 5 years thinking they are tax-free. They are not. In this window, Income Tax and NI are still charged — the relief is only that HMRC uses the lower of the two values (award price vs withdrawal price). If shares have fallen in value since award, you pay tax on the current (lower) value. If they have risen, you pay on the original award value. Either way, there is a tax charge.
+
+**After withdrawal**: shares enter your personal ownership. Any subsequent gain from that point is subject to **Capital Gains Tax** on disposal. The CGT base cost is the market value on the date of withdrawal from the SIP trust. Refer to `${CLAUDE_PLUGIN_ROOT}/references/2024-25-rates.md` for CGT rates and the annual exempt amount.
 
 ## Leaving Your Employer
 

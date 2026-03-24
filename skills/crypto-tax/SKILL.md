@@ -60,6 +60,16 @@ HMRC can request these records. Keep them for at least **5 years** after the 31 
 
 Report crypto capital gains on the **Capital Gains Tax summary pages (SA108)**. If total disposal proceeds exceed four times the annual exempt amount, you must report even if there is no gain. Report crypto income in the appropriate section — self-employment, miscellaneous income, or employment depending on the nature of the activity.
 
+## DeFi-Specific Tax Treatment
+
+DeFi activities create complex tax events that many users overlook:
+
+- **Liquidity provision**: Adding tokens to a liquidity pool is a disposal of those tokens. Removing liquidity is an acquisition. LP tokens received may have their own cost basis.
+- **LP fee rewards**: Fees earned from providing liquidity are **income**, not capital gains. Tax them at the user's marginal Income Tax rate.
+- **Yield farming / staking rewards**: Tokens received as rewards are income at market value on the date received. When later sold, CGT applies on any gain from that income-taxed acquisition cost.
+- **Wrapped tokens**: Wrapping ETH to WETH (or similar) is generally treated as a disposal by HMRC, even though the economic substance is unchanged. Flag this to the user.
+- **Failed transactions**: Gas fees on failed transactions may still be allowable costs — the user should keep records.
+
 ## Common Mistakes
 
 - **Forgetting token-to-token swaps are disposals.** Swapping ETH for a DeFi token is a taxable event, even though no fiat currency is involved.

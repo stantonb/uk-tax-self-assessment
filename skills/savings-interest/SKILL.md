@@ -37,6 +37,10 @@ Calculate whether the user qualifies:
 2. Subtract the personal allowance.
 3. If the result is less than the starting rate band width, the remaining amount is available at 0% for savings income.
 
+## Common Misconception: "My Bank Handles the Tax"
+
+Since April 2016, banks and building societies pay interest **gross** — no tax is deducted at source. Many savers still believe their bank deducts tax automatically. This is no longer the case. If interest exceeds the PSA, the taxpayer is responsible for ensuring the tax is paid, either through SA or via HMRC adjusting their PAYE tax code.
+
 ## How Savings Interest Is Taxed
 
 Walk through the calculation:

@@ -1,0 +1,74 @@
+{
+  "skill_name": "uk-tax-self-assessment",
+  "evals": [
+    {
+      "id": 1,
+      "name": "paye-crypto-sip-student-loan",
+      "prompt": "Hi, I'm an employee earning £72,000. I sold some bitcoin this year for a £4,500 gain, and I have shares through my company's SIP that I've held for 3 years which I want to sell. I also have a student loan on Plan 2. Can you help me figure out my tax situation for 2024/25?",
+      "expected_output": "Comprehensive tax breakdown covering employment income at higher rate, crypto CGT calculation with mid-year rate change, SIP 3-5 year tax treatment warning, student loan Plan 2 repayment calculation, and overall SA guidance",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "side-business-wfh-losses",
+      "prompt": "I work full time as a nurse earning £35,000 and started a small online tutoring business from my rented flat in September 2024. I made about £3,200 in revenue but spent £5,500 on a laptop, webcam, software subscriptions, and advertising. So I've basically made a loss. Can I claim my rent and bills too? What do I need to do for my taxes?",
+      "expected_output": "Guidance on registering as self-employed, explanation that the loss can be offset against nursing income via sideways relief, WFH expense options (flat rate vs actual), rent proportion calculation method, HMRC registration deadline, and SA filing requirements",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "high-earner-tax-planning",
+      "prompt": "I earn £105,000 and my wife doesn't work — she stays home with our two kids and we receive child benefit. I know I'm losing my personal allowance and probably need to pay back child benefit. What's the best way to reduce my tax bill? I have a SIPP and my employer offers salary sacrifice.",
+      "expected_output": "Explanation of PA tapering at 60% effective rate, HICBC calculation, strategy to use pension contributions to bring ANI below £100k, salary sacrifice NI savings, marriage allowance eligibility, and quantified tax savings",
+      "files": []
+    },
+    {
+      "id": 4,
+      "name": "retiree-dividends-savings",
+      "prompt": "I'm retired, I get a small pension of £14,000 a year, have about £1,800 in savings interest from various accounts, and received £2,300 in dividends from my share portfolio (not in an ISA). Do I need to do a self assessment? How much extra tax would I owe?",
+      "expected_output": "Calculation showing pension uses PA, starting rate for savings eligibility check, PSA application, dividend allowance application, whether SA is needed, and estimated additional tax with workings",
+      "files": []
+    },
+    {
+      "id": 5,
+      "name": "bank-interest-multiple-accounts",
+      "prompt": "I've got savings spread across a few accounts — my Marcus account earned £870 in interest, my Nationwide account about £320, and I have some NS&I income bonds that paid £410. I also won £500 on Premium Bonds. I earn £48,000 from my job. Do I need to declare all of this? I thought banks sorted out the tax automatically these days.",
+      "expected_output": "Clarification that Premium Bond prizes are tax-free, total taxable interest calculation (£1,600), PSA for basic rate taxpayer (£1,000), tax due on £600 excess, explanation that banks pay gross since 2016, and whether SA is needed or HMRC adjusts tax code",
+      "files": []
+    },
+    {
+      "id": 6,
+      "name": "crypto-heavy-trader-defi",
+      "prompt": "I've been pretty active in crypto this year. I swapped ETH for various DeFi tokens maybe 40-50 times, earned about £1,200 in staking rewards from Ethereum, provided liquidity on Uniswap and got about £800 in fees, sold some NFTs at a loss, and cashed out about £12,000 of bitcoin to GBP. I haven't kept great records tbh. What am I looking at tax-wise and how do I even calculate all this for my self assessment?",
+      "expected_output": "Explanation that every token swap is a disposal, staking/LP rewards are income tax, NFT losses can offset gains, share pooling rules (same-day, 30-day, S104), mid-year CGT rate change, record reconstruction advice, SA108 reporting, and strong warning about record-keeping",
+      "files": []
+    },
+    {
+      "id": 7,
+      "name": "loss-making-side-business-seeded",
+      "prompt": "I started a small candle-making business in June 2024 while working my day job (£42,000 salary). I put in £8,000 of my own savings to buy equipment, supplies, and set up a website. I've only made about £1,400 in sales so far. I work on it evenings and weekends from my spare bedroom in my rented flat. My partner says I should just write it off on my taxes but I'm not sure how that works. Can the money I put in count as a business expense? Can I get tax back on the loss?",
+      "expected_output": "Explanation of capital vs revenue expenses (equipment is capital allowance, supplies are revenue), sideways loss relief against employment income, early years relief option, WFH flat rate or actual costs for rented flat, registration requirements, trading vs hobby test, and realistic tax saving estimate",
+      "files": []
+    },
+    {
+      "id": 8,
+      "name": "pa-trap-100-120k-earner",
+      "prompt": "I just got a pay rise to £112,000 and my accountant friend mentioned something about losing my personal allowance which means I'm effectively paying 60% tax on some of my income?? That sounds mad. I also get child benefit for our 3 kids. I've got a workplace pension where my employer puts in 5% and I put in 5% through salary sacrifice. What can I do to not get absolutely hammered? Should I put more in my pension? My wife earns about £28,000.",
+      "expected_output": "Clear explanation of 60% effective rate between £100k-£125,140, current PA loss calculation, HICBC calculation for 3 children, salary sacrifice pension strategy to bring ANI below £100k with exact amounts needed, NI savings from salary sacrifice, marriage allowance check (wife is basic rate so eligible), ISA planning, and quantified total tax savings"
+    },
+    {
+      "id": 9,
+      "name": "kitchen-sink-complex-combo",
+      "prompt": "I'm a software engineer earning £95,000. I also rent out a flat (profit about £6,200 after expenses), do some freelance consulting on the side (£11,000 gross, about £3,000 in expenses), sold some Ethereum for a £7,200 gain and did a few token swaps, and I get child benefit for 2 kids. My employer does salary sacrifice pension at 6%. I feel like I'm juggling a lot here — what's my actual tax position and am I missing anything?",
+      "expected_output": "Employment income reduced by salary sacrifice, self-employment profit calculation with Class 4 NI, rental income treatment, crypto CGT with annual exempt amount and token swap disposals, HICBC calculation, combined tax position, and pension strategy to reduce ANI below £100k",
+      "files": []
+    },
+    {
+      "id": 10,
+      "name": "multi-income-isa-sip-combo",
+      "prompt": "I earn £67,000 from my job. This year I received £3,400 in dividends from shares in a general investment account, £950 in savings interest, and I have a SIP through work with £3,600 in free shares (held 3 years) and £1,800 in partnership shares. I sold some shares from the GIA for a £2,800 gain. I also put £10,000 into my stocks and shares ISA. Should I be thinking about moving more into my ISA? What's my tax bill looking like?",
+      "expected_output": "Higher rate taxpayer identification, dividend tax with £500 allowance at 33.75%, PSA at £500 for higher rate, SIP 3-year holding tax treatment, CGT within annual exempt amount, ISA tax-free confirmation, bed and ISA recommendation, and numerical calculations",
+      "files": []
+    }
+  ]
+}
