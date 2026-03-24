@@ -1,6 +1,6 @@
 ---
 name: student-loan-repayments
-description: "Explains UK student loan repayment rules for Self Assessment. Use when the user asks about student loan repayments, Plan 1, Plan 2, Plan 4, Plan 5, postgraduate loan, SLC, student loan on tax return, or student loan threshold."
+description: "Explains UK student loan repayment rules for Self Assessment. Make sure to use this skill whenever the user mentions student loan repayments, Plan 1, Plan 2, Plan 4, Plan 5, postgraduate loan, SLC, student loan on tax return, student loan threshold, or asks anything about student loan deductions from their pay or tax return."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

@@ -1,6 +1,6 @@
 ---
 name: side-business-wfh
-description: "Explains working from home tax deductions for UK side businesses and self-employed. Use when the user asks about working from home expenses, home office deduction, claiming rent for business, utility bills for business, WFH allowance self-employed, or home office proportion."
+description: "Explains working from home tax deductions for UK side businesses and self-employed. Make sure to use this skill whenever the user mentions working from home expenses, home office deduction, claiming rent for business, utility bills for business, WFH allowance self-employed, home office proportion, or asks anything about claiming household costs against their business — even if they just say 'I work from home for my side business, can I claim anything'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

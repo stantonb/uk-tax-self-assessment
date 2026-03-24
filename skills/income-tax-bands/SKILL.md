@@ -1,6 +1,6 @@
 ---
 name: income-tax-bands
-description: "Explains UK income tax bands, rates, and the personal allowance for England taxpayers. Use when the user asks about tax bands, tax rates, personal allowance, how much tax they'll pay, taxable income, additional rate tax, or the £100k personal allowance trap."
+description: "Explains UK income tax bands, rates, and the personal allowance for England taxpayers. Make sure to use this skill whenever the user mentions tax bands, tax rates, personal allowance, how much tax they'll pay, taxable income, additional rate tax, the £100k trap, marginal tax rate, or asks anything about how UK income tax is calculated — even if they just provide a salary and ask 'how much tax will I pay'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

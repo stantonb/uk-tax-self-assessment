@@ -1,6 +1,6 @@
 ---
 name: pension-tax-relief
-description: "Explains UK pension tax relief rules for Self Assessment and tax planning. Use when the user asks about pension contributions, pension tax relief, annual allowance, carry forward, salary sacrifice pension, SIPP, tapered annual allowance, or pension tax benefits."
+description: "Explains UK pension tax relief rules for Self Assessment and tax planning. Make sure to use this skill whenever the user mentions pension contributions, pension tax relief, annual allowance, carry forward, salary sacrifice pension, SIPP, tapered annual allowance, pension tax benefits, or asks anything about reducing tax through pensions — even if they just say 'should I put more into my pension'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

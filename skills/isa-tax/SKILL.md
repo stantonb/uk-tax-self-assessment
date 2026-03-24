@@ -1,6 +1,6 @@
 ---
 name: isa-tax
-description: "Explains UK ISA tax rules and how ISAs interact with Self Assessment. Use when the user asks about ISA, stocks and shares ISA, cash ISA, lifetime ISA, LISA, ISA allowance, ISA transfers, or tax-free savings."
+description: "Explains UK ISA tax rules and how ISAs interact with Self Assessment. Make sure to use this skill whenever the user mentions ISA, stocks and shares ISA, cash ISA, lifetime ISA, LISA, ISA allowance, ISA transfers, tax-free savings, bed and ISA, or asks anything about sheltering investments from tax — even if they just say 'should I use my ISA allowance'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.
@@ -64,7 +64,7 @@ This crystallises a disposal for CGT purposes. If the gain is within your annual
 Key considerations:
 
 - The disposal is a chargeable event — calculate the gain and check it falls within the exempt amount before proceeding.
-- The 30-day bed and breakfast rule does **not** apply to ISA repurchases (it only applies to repurchases in the same type of account), but always confirm current HMRC guidance.
+- The 30-day bed and breakfast rule does **not** apply when you rebuy inside an ISA — you can sell shares in a taxable account and immediately rebuy the same shares in your ISA without the disposal being matched to the ISA purchase. Always confirm current HMRC guidance.
 - You are limited by the annual ISA allowance for how much you can shelter each year.
 
 ## Interaction with CGT Planning

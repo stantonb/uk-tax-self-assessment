@@ -1,6 +1,6 @@
 ---
 name: national-insurance
-description: "Explains UK National Insurance contributions for Self Assessment. Use when the user asks about National Insurance, NI contributions, Class 1, Class 2, Class 4, NI rates, voluntary NI, state pension qualifying years, or NI number."
+description: "Explains UK National Insurance contributions for Self Assessment. Make sure to use this skill whenever the user mentions National Insurance, NI contributions, Class 1, Class 2, Class 4, NI rates, voluntary NI, state pension qualifying years, NI number, or asks anything about how much NI they owe — even if they just say 'what NI do I pay on my side business'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

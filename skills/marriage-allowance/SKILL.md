@@ -1,6 +1,6 @@
 ---
 name: marriage-allowance
-description: "Explains UK Marriage Allowance for Self Assessment. Use when the user asks about marriage allowance, married couple's allowance, transferable tax allowance, spouse tax savings, or marriage tax benefit."
+description: "Explains UK Marriage Allowance for Self Assessment. Make sure to use this skill whenever the user mentions marriage allowance, married couple's allowance, transferable tax allowance, spouse tax savings, marriage tax benefit, or asks anything about tax benefits for married couples or civil partners — even if they just say 'I'm married, can I save on tax'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

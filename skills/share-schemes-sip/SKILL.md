@@ -1,6 +1,6 @@
 ---
 name: share-schemes-sip
-description: "Explains UK Share Incentive Plan (SIP) and employee share scheme tax rules. Use when the user asks about SIP, share incentive plan, free shares, partnership shares, matching shares, SAYE, sharesave, company share options, or employee share schemes."
+description: "Explains UK Share Incentive Plan (SIP) and employee share scheme tax rules. Make sure to use this skill whenever the user mentions SIP, share incentive plan, free shares, partnership shares, matching shares, SAYE, sharesave, company share options, employee share schemes, or anything about shares they get through work — even if they just say 'my employer gives me shares'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

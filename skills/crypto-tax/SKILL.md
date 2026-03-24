@@ -1,6 +1,6 @@
 ---
 name: crypto-tax
-description: "Explains UK cryptocurrency and cryptoasset tax rules for Self Assessment. Use when the user asks about crypto tax, bitcoin tax, ethereum tax, NFT tax, DeFi tax, staking rewards, crypto capital gains, token swaps, or HMRC crypto rules."
+description: "Explains UK cryptocurrency and cryptoasset tax rules for Self Assessment. Make sure to use this skill whenever the user mentions crypto tax, bitcoin, ethereum, NFT tax, DeFi, staking rewards, crypto capital gains, token swaps, HMRC crypto rules, or anything about selling, swapping, or disposing of cryptocurrency — even if they just say 'I sold some crypto this year'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

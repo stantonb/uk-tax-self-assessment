@@ -1,6 +1,6 @@
 ---
 name: side-business-overview
-description: "Provides an overview of running a side business alongside employment in the UK for tax purposes. Use when the user mentions having a side business, side hustle, second job, freelancing alongside employment, or running a business while employed. This skill orchestrates the other side-business sub-skills."
+description: "Provides an overview of running a side business alongside employment in the UK for tax purposes. Make sure to use this skill whenever the user mentions having a side business, side hustle, second job, freelancing alongside employment, running a business while employed, selling things online, Etsy shop, tutoring income, or any form of extra income from self-directed work — even if they just say 'I make some money on the side'. This skill orchestrates the other side-business sub-skills."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

@@ -1,6 +1,6 @@
 ---
 name: rental-income
-description: "Covers UK rental income tax rules for Self Assessment. Use when the user asks about rental income, buy to let tax, property income, SA105, letting relief, rent-a-room scheme, or landlord tax."
+description: "Covers UK rental income tax rules for Self Assessment. Make sure to use this skill whenever the user mentions rental income, buy to let, property income, SA105, letting relief, rent-a-room scheme, landlord tax, tenants, mortgage interest deduction for landlords, or anything about earning money from letting property."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.
@@ -50,7 +50,7 @@ Calculate the net effect for the user: compare the tax on gross rental profits w
 
 Explain the scheme for users letting furnished rooms in their main home:
 
-- Gross rental income up to the Rent-a-Room threshold (check data file — currently £7,500 per year) is tax-free.
+- Gross rental income up to the Rent-a-Room threshold (check `${CLAUDE_PLUGIN_ROOT}/references/2024-25-rates.md` for the current limit) is tax-free.
 - If the property is jointly let, the threshold is halved per person.
 - The user can choose to use the scheme (reporting nothing if under the limit) or opt out and claim actual expenses instead — whichever is more beneficial.
 - The scheme applies only to furnished accommodation in the user's main residence (not separate properties).

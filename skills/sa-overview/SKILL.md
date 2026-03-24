@@ -1,6 +1,6 @@
 ---
 name: sa-overview
-description: "Provides an overview of the UK Self Assessment tax return process, key deadlines, who needs to file, and how to register with HMRC. Use when the user asks about Self Assessment, SA100, tax returns, filing deadlines, registering for self assessment, UTR numbers, or HMRC online services."
+description: "Provides an overview of the UK Self Assessment tax return process, key deadlines, who needs to file, and how to register with HMRC. Make sure to use this skill whenever the user mentions Self Assessment, SA100, tax returns, filing deadlines, registering for self assessment, UTR numbers, HMRC online services, or asks anything about whether they need to file a tax return — even if they don't use the exact phrase 'Self Assessment'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.
@@ -14,7 +14,7 @@ This skill walks users through the UK Self Assessment (SA) tax return process en
 Determine whether the user is required to file a Self Assessment return. The following triggers SA filing — ask the user which apply:
 
 - Self-employed sole traders or partners with trading income above £1,000
-- Total taxable income exceeding £150,000 (even if fully taxed via PAYE)
+- Total taxable income exceeding the high-income threshold (check `${CLAUDE_PLUGIN_ROOT}/references/2024-25-rates.md` for the current figure — even if fully taxed via PAYE)
 - Untaxed income of any kind (e.g. rental income, foreign income, tips)
 - Capital gains requiring reporting (above the annual exempt amount)
 - High Income Child Benefit Charge (HICBC) liability
@@ -76,11 +76,38 @@ If the user has already missed a deadline, advise filing as soon as possible to 
 
 This skill provides the framework. For specific income types or calculations, chain to:
 
+**Core:**
 - **income-tax-bands** — for band calculations and the personal allowance
+
+**Income types:**
 - **employment-paye** — for P60/P45 and employment-related questions
 - **self-employment-income** — for sole trader and freelancer reporting
 - **dividend-income** — for dividend tax and allowances
 - **rental-income** — for property income and landlord expenses
 - **savings-interest** — for bank interest and the personal savings allowance
+
+**Investments & capital gains:**
+- **capital-gains-tax** — for share sales, property disposals, and CGT reliefs
+- **crypto-tax** — for cryptocurrency and cryptoasset disposals
+- **share-schemes-sip** — for SIP, SAYE, and employee share schemes
+- **isa-tax** — for ISA rules and tax-free savings planning
+
+**Reliefs & deductions:**
+- **pension-tax-relief** — for pension contributions, annual allowance, and salary sacrifice
+- **marriage-allowance** — for transferable personal allowance between spouses
+- **charitable-giving** — for Gift Aid, payroll giving, and donation reliefs
+
+**NI, student loans & family:**
+- **national-insurance** — for Class 1/2/4 NI, voluntary contributions, and state pension
+- **student-loan-repayments** — for Plan 1/2/4/5 and postgraduate loan repayments
+- **hicbc** — for High Income Child Benefit Charge
+
+**Side business:**
+- **side-business-overview** — entry point for running a business alongside employment
+- **side-business-expenses** — for allowable business deductions
+- **side-business-wfh** — for working from home deductions
+- **side-business-rent-costs** — for claiming rent and housing costs
+- **side-business-losses** — for trading loss relief options
+- **side-business-registration** — for HMRC registration and obligations
 
 Ask the user which income sources they have and direct them to the relevant skill.

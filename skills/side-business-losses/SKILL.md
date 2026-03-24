@@ -1,6 +1,6 @@
 ---
 name: side-business-losses
-description: "Explains UK rules for trading losses from a side business or self-employment. Use when the user asks about business losses, trading losses, carrying forward losses, offsetting losses against employment income, loss relief, or sideways loss relief."
+description: "Explains UK rules for trading losses from a side business or self-employment. Make sure to use this skill whenever the user mentions business losses, trading losses, carrying forward losses, offsetting losses against employment income, loss relief, sideways loss relief, or says anything about their side business making a loss — even if they just say 'my business lost money this year, can I get tax back'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.
@@ -42,7 +42,7 @@ In the **first four tax years** of a new trade, losses can be carried back again
 Sideways relief is not unlimited. Key restrictions:
 
 - **Uncommercial trades**: if the trade is not conducted on a commercial basis with a reasonable expectation of profit, sideways relief may be denied. HMRC will examine whether the business is genuinely a trade or a hobby.
-- **Cap on sideways relief**: losses exceeding £25,000 cannot be set sideways against other income unless the trade is conducted on a commercial basis. This is often called the "hobby loss" restriction.
+- **Cap on sideways relief**: losses exceeding the sideways relief cap cannot be set against other income unless the trade is conducted on a commercial basis. This is often called the "hobby loss" restriction. Check `${CLAUDE_PLUGIN_ROOT}/references/2024-25-rates.md` for the current cap amount.
 - **Cash basis restriction**: if the business uses the cash basis of accounting, trading losses can generally only be carried forward — sideways relief and carry back are not available. Consider opting out of cash basis in a loss-making year if sideways relief would be beneficial.
 
 ## Hobby vs Trade Test

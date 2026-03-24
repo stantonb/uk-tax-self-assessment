@@ -1,6 +1,6 @@
 ---
 name: charitable-giving
-description: "Explains UK charitable giving tax relief for Self Assessment. Use when the user asks about Gift Aid, charitable donations, payroll giving, donating to charity, charity tax relief, or tax-efficient giving."
+description: "Explains UK charitable giving tax relief for Self Assessment. Make sure to use this skill whenever the user mentions Gift Aid, charitable donations, payroll giving, donating to charity, charity tax relief, tax-efficient giving, or asks anything about getting tax back on donations — even if they just say 'I donated to charity this year'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

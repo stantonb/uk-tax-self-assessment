@@ -1,6 +1,6 @@
 ---
 name: capital-gains-tax
-description: "Explains UK Capital Gains Tax rules for Self Assessment. Use when the user asks about CGT, capital gains, selling shares, disposing of assets, annual exempt amount, CGT reporting, losses, or Business Asset Disposal Relief."
+description: "Explains UK Capital Gains Tax rules for Self Assessment. Make sure to use this skill whenever the user mentions CGT, capital gains, selling shares, disposing of assets, annual exempt amount, CGT reporting, capital losses, Business Asset Disposal Relief, or anything about making a profit or loss from selling an asset — even if they just say 'I sold some shares'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

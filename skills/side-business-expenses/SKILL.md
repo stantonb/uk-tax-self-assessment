@@ -1,6 +1,6 @@
 ---
 name: side-business-expenses
-description: "Explains allowable business expenses for UK self-employed and side business owners. Use when the user asks about business expenses, tax deductions, what expenses can I claim, allowable expenses, business costs, equipment for business, or deductible expenses."
+description: "Explains allowable business expenses for UK self-employed and side business owners. Make sure to use this skill whenever the user mentions business expenses, tax deductions, what expenses can I claim, allowable expenses, business costs, equipment for business, deductible expenses, or asks anything about reducing their business profits through expenses — even if they just say 'can I claim my laptop as a business expense'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

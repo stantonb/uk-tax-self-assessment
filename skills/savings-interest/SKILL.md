@@ -1,6 +1,6 @@
 ---
 name: savings-interest
-description: "Explains UK savings income tax rules for Self Assessment. Use when the user asks about savings interest tax, personal savings allowance, bank interest, building society interest, NS&I, or the starting rate for savings."
+description: "Explains UK savings income tax rules for Self Assessment. Make sure to use this skill whenever the user mentions savings interest, personal savings allowance, bank interest, building society interest, NS&I, Premium Bonds tax, starting rate for savings, or asks whether they need to pay tax on interest from their savings accounts."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

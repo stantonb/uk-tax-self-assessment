@@ -1,6 +1,6 @@
 ---
 name: employment-paye
-description: "Covers UK employment income and PAYE for Self Assessment purposes. Use when the user asks about employment income, P60, P45, P11D, benefits in kind, tax codes, emergency tax, or why employed people need to file Self Assessment."
+description: "Covers UK employment income and PAYE for Self Assessment purposes. Make sure to use this skill whenever the user mentions employment income, P60, P45, P11D, benefits in kind, tax codes, emergency tax, why employed people need to file Self Assessment, or anything about their salary and tax — even if they just say 'I'm employed and need to do my tax return'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.
@@ -13,9 +13,9 @@ This skill covers employment income within Self Assessment. Most employees have 
 
 Ask the user whether any of these situations apply:
 
-- Total income exceeds £150,000
+- Total income exceeds the high-income SA filing threshold (check `${CLAUDE_PLUGIN_ROOT}/references/2024-25-rates.md`)
 - Untaxed income from other sources (rental, freelance, investments) above relevant thresholds
-- High Income Child Benefit Charge applies (income over £60,000 — check `${CLAUDE_PLUGIN_ROOT}/references/2024-25-rates.md` for the exact threshold)
+- High Income Child Benefit Charge applies (check `${CLAUDE_PLUGIN_ROOT}/references/2024-25-rates.md` for the HICBC threshold)
 - Benefits in kind not taxed through payroll
 - Employment with two or more employers causing incorrect PAYE collection
 - Foreign income or overseas employment duties

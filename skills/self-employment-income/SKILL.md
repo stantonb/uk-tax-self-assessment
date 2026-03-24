@@ -1,6 +1,6 @@
 ---
 name: self-employment-income
-description: "Covers UK self-employment income reporting for Self Assessment. Use when the user mentions being self-employed, sole trader, freelancer, contractor, SA103, trading income, or business profits."
+description: "Covers UK self-employment income reporting for Self Assessment. Make sure to use this skill whenever the user mentions being self-employed, sole trader, freelancer, contractor, SA103, trading income, business profits, or anything about reporting self-employment on their tax return — even if they just say 'I do some freelancing on the side'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

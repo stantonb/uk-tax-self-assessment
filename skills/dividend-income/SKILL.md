@@ -1,6 +1,6 @@
 ---
 name: dividend-income
-description: "Explains UK dividend tax rules for Self Assessment. Use when the user asks about dividend tax, dividend allowance, dividend vouchers, company dividends, or how dividends are taxed."
+description: "Explains UK dividend tax rules for Self Assessment. Make sure to use this skill whenever the user mentions dividend tax, dividend allowance, dividend vouchers, company dividends, how dividends are taxed, shareholder income, or anything about receiving dividends from investments or their own company."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

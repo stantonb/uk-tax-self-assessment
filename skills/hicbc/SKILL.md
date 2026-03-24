@@ -1,6 +1,6 @@
 ---
 name: hicbc
-description: "Explains the UK High Income Child Benefit Charge for Self Assessment. Use when the user asks about HICBC, high income child benefit charge, child benefit tax, child benefit clawback, child benefit and high earners, or whether to opt out of child benefit."
+description: "Explains the UK High Income Child Benefit Charge for Self Assessment. Make sure to use this skill whenever the user mentions HICBC, high income child benefit charge, child benefit tax, child benefit clawback, child benefit and high earners, opting out of child benefit, or asks anything about child benefit and earning over £50k/£60k — even if they just say 'do I have to pay back child benefit'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

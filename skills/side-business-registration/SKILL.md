@@ -1,6 +1,6 @@
 ---
 name: side-business-registration
-description: "Explains how to register a side business with HMRC and related obligations. Use when the user asks about registering as self-employed, getting a UTR number, HMRC registration, CIS registration, Making Tax Digital, or business registration requirements."
+description: "Explains how to register a side business with HMRC and related obligations. Make sure to use this skill whenever the user mentions registering as self-employed, getting a UTR number, HMRC registration, CIS registration, Making Tax Digital, business registration requirements, or asks anything about how to set up their business with HMRC — even if they just say 'how do I register my side business'."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.

@@ -1,6 +1,6 @@
 ---
 name: side-business-rent-costs
-description: "Explains claiming rent and housing costs as business expenses for UK side businesses. Use when the user asks about claiming rent as business expense, mortgage interest for home office, council tax deduction, business proportion of rent, or housing costs for side business."
+description: "Explains claiming rent and housing costs as business expenses for UK side businesses. Make sure to use this skill whenever the user mentions claiming rent as a business expense, mortgage interest for home office, council tax deduction, business proportion of rent, housing costs for side business, or asks anything about deducting housing costs when working from home for their business."
 ---
 
 > **DISCLAIMER**: This skill provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions. HMRC is the sole authority on UK tax matters.
