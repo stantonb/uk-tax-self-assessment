@@ -6,15 +6,21 @@ A Claude Code plugin that helps England-based taxpayers navigate Self Assessment
 
 ## Installation
 
+### From marketplace (recommended)
+
+Add the repository as a marketplace, then install the plugin:
+
 ```bash
-claude plugin add /path/to/uk-tax-self-assessment
+claude plugin marketplace add stantonb/uk-tax-self-assessment
+claude plugin install uk-tax-self-assessment
 ```
 
-Or clone and point to the local directory:
+### From local directory
+
+If you've cloned the repo locally:
 
 ```bash
-git clone https://github.com/stantonb/uk-tax-self-assessment.git
-claude plugin add ./uk-tax-self-assessment
+claude plugin install /path/to/uk-tax-self-assessment
 ```
 
 ## What's Included

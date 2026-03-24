@@ -1,0 +1,19 @@
+{
+  "name": "uk-tax-self-assessment",
+  "owner": {
+    "name": "Stanton Borthwick"
+  },
+  "metadata": {
+    "description": "UK Self Assessment tax guidance for England-based taxpayers",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "uk-tax-self-assessment",
+      "description": "23 micro-skills covering UK Self Assessment: income tax, CGT, crypto, pensions, ISAs, SIP, HICBC, student loans, side businesses, and tax planning. Includes 3 commands and 2 agents.",
+      "source": "./",
+      "version": "0.1.0",
+      "category": "finance"
+    }
+  ]
+}
