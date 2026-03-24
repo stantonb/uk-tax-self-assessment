@@ -1,0 +1,10 @@
+{
+  "name": "uk-tax-self-assessment",
+  "version": "0.1.0",
+  "description": "UK Self Assessment tax guidance for England-based taxpayers. Covers PAYE employees, side income, capital gains, dividends, and tax planning. Not professional tax advice.",
+  "author": {
+    "name": "Stanton Borthwick"
+  },
+  "license": "MIT",
+  "keywords": ["uk-tax", "self-assessment", "hmrc", "england", "tax-planning", "capital-gains", "paye"]
+}
