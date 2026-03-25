@@ -6,7 +6,19 @@ A Claude Code plugin that helps England-based taxpayers navigate Self Assessment
 
 ## Installation
 
-### From marketplace (recommended)
+### Claude Cowork (claude.ai)
+
+If your organisation admin has added this plugin to a Cowork marketplace, it will appear in your available plugins automatically.
+
+**For organisation admins (Team/Enterprise plans):**
+
+1. Go to **Organization Settings > Plugins** in Claude Desktop
+2. Upload the plugin as a ZIP, or sync from a private GitHub repo via the Claude GitHub App
+3. Once added, all organisation members can activate it in Cowork
+
+> **Note:** GitHub sync requires the repository to be **private or internal**. If using a public fork, ZIP the plugin directory and upload manually instead.
+
+### Claude Code (CLI)
 
 Add the repository as a marketplace, then install the plugin:
 
@@ -20,6 +32,7 @@ claude plugin install uk-tax-self-assessment
 If you've cloned the repo locally:
 
 ```bash
+# Claude Code
 claude plugin install /path/to/uk-tax-self-assessment
 ```
 
@@ -91,9 +104,11 @@ Skills load automatically when relevant to the conversation. They're organised i
 | `tax-situation-analyzer` | Gathers your full tax picture through structured questions, then chains relevant skills |
 | `tax-reviewer` | Reviews your figures for missed reliefs, allowances, and planning opportunities |
 
-### 1 Reference File
+### Reference Files
 
-All tax rates, thresholds, and allowances for 2024/25 are centralised in `references/2024-25-rates.md`. To update for a new tax year, edit this single file — no skill changes needed.
+Tax rates, thresholds, and allowances are centralised in `references/`:
+- `2024-25-rates.md` — 6 Apr 2024 to 5 Apr 2025
+- `2025-26-rates.md` — 6 Apr 2025 to 5 Apr 2026
 
 ## Usage Examples
 
@@ -127,7 +142,8 @@ uk-tax-self-assessment/
 ├── commands/            # 3 slash commands
 ├── agents/              # 2 specialised agents
 ├── references/
-│   └── 2024-25-rates.md # Single source of truth for all rates
+│   ├── 2024-25-rates.md # Rates for 2024/25
+│   └── 2025-26-rates.md # Rates for 2025/26
 └── evals/
     └── evals.json       # 10 test cases for benchmarking
 ```
