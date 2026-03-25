@@ -1,0 +1,16 @@
+{
+  "eval_id": 9,
+  "eval_name": "kitchen-sink-complex-combo",
+  "prompt": "I'm a software engineer earning £95,000. I also rent out a flat (profit about £6,200 after expenses), do some freelance consulting on the side (£11,000 gross, about £3,000 in expenses), sold some Ethereum for a £7,200 gain and did a few token swaps, and I get child benefit for 2 kids. My employer does salary sacrifice pension at 6%. I feel like I'm juggling a lot here — what's my actual tax position and am I missing anything?",
+  "assertions": [
+    {"text": "Correctly reduces employment income by salary sacrifice (£95,000 - £5,700 = £89,300)", "type": "factual"},
+    {"text": "Calculates self-employment profit (£11,000 - £3,000 = £8,000)", "type": "factual"},
+    {"text": "Addresses rental income tax treatment", "type": "factual"},
+    {"text": "Applies CGT annual exempt amount to the crypto gain", "type": "factual"},
+    {"text": "Explains token swaps are separate taxable disposals", "type": "factual"},
+    {"text": "Calculates or mentions HICBC given total income level", "type": "factual"},
+    {"text": "Mentions Class 2 and/or Class 4 NI on self-employment profits", "type": "factual"},
+    {"text": "Provides a combined tax liability estimate or step-by-step breakdown", "type": "quality"},
+    {"text": "Recommends pension strategy to reduce ANI below £100k if applicable", "type": "quality"}
+  ]
+}

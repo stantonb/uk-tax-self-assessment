@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Correctly identifies the user as a higher rate (40%) taxpayer",
+      "passed": true,
+      "evidence": "Line 22: 'At £72,000 you are a higher-rate taxpayer' and explicit 40% rate shown in income tax table (line 28)"
+    },
+    {
+      "text": "Mentions the CGT annual exempt amount (£3,000 for 2024/25)",
+      "passed": true,
+      "evidence": "Line 68: Table showing 'Annual Exempt Amount (2024/25) | £3,000'"
+    },
+    {
+      "text": "Explains the mid-year CGT rate change on 30 October 2024 or different rates before/after that date",
+      "passed": true,
+      "evidence": "Lines 75-78: Clear explanation that 'The CGT rate on crypto (a non-residential-property asset) changed on 30 October 2024' with before (20%) and after (24%) rates for higher-rate taxpayers"
+    },
+    {
+      "text": "Explains SIP 3-5 year holding period means partial income tax and NI liability on shares",
+      "passed": true,
+      "evidence": "Line 124: Table row '3 to 5 years | Lower of: (a) market value at award OR (b) market value at withdrawal — whichever is lower, is taxed' with detailed explanation in following paragraphs"
+    },
+    {
+      "text": "States Plan 2 student loan repayment threshold (£27,295) and rate (9%)",
+      "passed": true,
+      "evidence": "Lines 164-165: 'For 2024/25, Plan 2 repayments are calculated as: 9% of income above £27,295'"
+    },
+    {
+      "text": "Calculates or explains the student loan repayment amount",
+      "passed": true,
+      "evidence": "Lines 169-174: Complete calculation table showing Gross income (£72,000), threshold (£27,295), income above threshold (£44,705), and repayment calculation (9% = £4,023)"
+    },
+    {
+      "text": "Mentions Self Assessment filing requirement",
+      "passed": true,
+      "evidence": "Line 188: 'Yes — you must file a Self Assessment return for 2024/25' with clear trigger explanation about CGT gain exceeding AEA"
+    },
+    {
+      "text": "Includes a disclaimer that this is not professional tax advice",
+      "passed": true,
+      "evidence": "Lines 1-3: 'DISCLAIMER: This guidance provides general tax information only. It is NOT professional tax advice.'"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

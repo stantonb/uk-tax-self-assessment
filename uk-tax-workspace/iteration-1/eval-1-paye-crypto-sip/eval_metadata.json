@@ -1,0 +1,15 @@
+{
+  "eval_id": 1,
+  "eval_name": "paye-crypto-sip-student-loan",
+  "prompt": "Hi, I'm an employee earning £72,000. I sold some bitcoin this year for a £4,500 gain, and I have shares through my company's SIP that I've held for 3 years which I want to sell. I also have a student loan on Plan 2. Can you help me figure out my tax situation for 2024/25?",
+  "assertions": [
+    {"text": "Correctly identifies the user as a higher rate (40%) taxpayer", "type": "factual"},
+    {"text": "Mentions the CGT annual exempt amount (£3,000 for 2024/25)", "type": "factual"},
+    {"text": "Explains the mid-year CGT rate change on 30 October 2024 or different rates before/after that date", "type": "factual"},
+    {"text": "Explains SIP 3-5 year holding period means partial income tax and NI liability on shares", "type": "factual"},
+    {"text": "States Plan 2 student loan repayment threshold (£27,295) and rate (9%)", "type": "factual"},
+    {"text": "Calculates or explains the student loan repayment amount", "type": "factual"},
+    {"text": "Mentions Self Assessment filing requirement", "type": "factual"},
+    {"text": "Includes a disclaimer that this is not professional tax advice", "type": "quality"}
+  ]
+}

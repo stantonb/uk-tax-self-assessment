@@ -1,0 +1,15 @@
+{
+  "eval_id": 2,
+  "eval_name": "side-business-wfh-losses",
+  "prompt": "I work full time as a nurse earning £35,000 and started a small online tutoring business from my rented flat in September 2024. I made about £3,200 in revenue but spent £5,500 on a laptop, webcam, software subscriptions, and advertising. So I've basically made a loss. Can I claim my rent and bills too? What do I need to do for my taxes?",
+  "assertions": [
+    {"text": "Explains the business has made a trading loss (revenue minus expenses)", "type": "factual"},
+    {"text": "Mentions sideways loss relief as an option to offset the loss against nursing income", "type": "factual"},
+    {"text": "Distinguishes capital expenditure (laptop) from revenue expenses (subscriptions, advertising)", "type": "factual"},
+    {"text": "Explains WFH expense options: flat rate vs proportional actual costs", "type": "factual"},
+    {"text": "Addresses the rent question with proportional calculation method (room proportion x time proportion)", "type": "factual"},
+    {"text": "Mentions HMRC self-employment registration requirement and deadline", "type": "factual"},
+    {"text": "Mentions Self Assessment filing requirement", "type": "factual"},
+    {"text": "Warns about hobby vs trade test or commercial basis requirement for loss relief", "type": "quality"}
+  ]
+}

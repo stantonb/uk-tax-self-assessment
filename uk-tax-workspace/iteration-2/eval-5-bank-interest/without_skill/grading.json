@@ -1,0 +1,40 @@
+{
+  "expectations": [
+    {
+      "text": "States that Premium Bond prizes are tax-free",
+      "passed": true,
+      "evidence": "Line 20 states 'your Premium Bond winnings are completely tax-free' and line 69 states 'entirely exempt from Income Tax'"
+    },
+    {
+      "text": "Calculates total taxable interest correctly (£870 + £320 + £410 = £1,600)",
+      "passed": true,
+      "evidence": "Lines 10-14 show all three sources (Marcus £870, Nationwide £320, NS&I £410) totaling £1,600, confirmed again in lines 54-57"
+    },
+    {
+      "text": "Applies the PSA correctly (£1,000 for basic rate taxpayer at £48,000)",
+      "passed": true,
+      "evidence": "Lines 40-46 present PSA table, identify employment income £48,000 as basic rate taxpayer, and correctly apply £1,000 PSA"
+    },
+    {
+      "text": "Calculates tax due on £600 excess interest above PSA",
+      "passed": true,
+      "evidence": "Line 61 states 'you would owe £120 in tax on that excess £600', correctly calculating 20% of £600"
+    },
+    {
+      "text": "Explains that banks pay interest gross since 2016 (no automatic tax deduction)",
+      "passed": true,
+      "evidence": "Lines 26-27 state 'banks now pay interest gross (without deducting tax at source) — this changed back in April 2016'"
+    },
+    {
+      "text": "Explains how HMRC collects the tax (tax code adjustment or Self Assessment)",
+      "passed": true,
+      "evidence": "Lines 28-32 explain tax code adjustment mechanism, and lines 73-82 discuss Self Assessment registration threshold and notification methods as alternative collection mechanisms"
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 0,
+    "total": 6,
+    "pass_rate": 1.0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Explains the business has made a trading loss",
+      "passed": true,
+      "evidence": "Response states: 'Revenue of £3,200, expenses of approximately £5,500, creating a trading loss before any housing cost claims'"
+    },
+    {
+      "text": "Mentions sideways loss relief as an option to offset the loss against nursing income",
+      "passed": true,
+      "evidence": "Response explains: 'If you want to offset the tutoring loss against your £35,000 nursing income in the **same tax year**, you must use **accruals basis** accounting instead. Under accruals: You can claim **sideways relief** — setting the trading loss against your other income in 2024/25.'"
+    },
+    {
+      "text": "Distinguishes capital expenditure (laptop) from revenue expenses (subscriptions, advertising)",
+      "passed": true,
+      "evidence": "Response clearly distinguishes: 'A laptop is a capital item (it has lasting value beyond a single tax year). It is **not** claimed as a straightforward revenue expense... Recurring software costs are revenue expenses, deductible in full... Advertising: Fully allowable as a revenue expense'"
+    },
+    {
+      "text": "Explains WFH expense options: flat rate vs proportional actual costs",
+      "passed": true,
+      "evidence": "Response provides both options: 'You must choose one for the tax year and apply it consistently. ### Option A: Flat Rate (Simplified Expenses) — Simpler... ### Option B: Actual Costs — More Detailed, Potentially Higher' with detailed breakdown of each method"
+    },
+    {
+      "text": "Addresses the rent question with proportional calculation method",
+      "passed": true,
+      "evidence": "Response explains: 'Apply that combined percentage to your actual annual costs: - Rent... **Example calculation** (illustrative): | Rent: £9,600 | 14% | £1,344 |'"
+    },
+    {
+      "text": "Mentions HMRC self-employment registration requirement and deadline",
+      "passed": true,
+      "evidence": "Response states: 'You must register with HMRC as self-employed by **5 October 2025**'"
+    },
+    {
+      "text": "Mentions Self Assessment filing requirement",
+      "passed": true,
+      "evidence": "Response states: 'File Your Self Assessment Return by 31 January 2026. The online return for 2024/25 is due by **31 January 2026**'"
+    },
+    {
+      "text": "Warns about hobby vs trade test or commercial basis requirement for loss relief",
+      "passed": true,
+      "evidence": "Response warns: 'For sideways relief to be available, your tutoring business must be conducted on a **commercial basis with a genuine expectation of profit**... keep records demonstrating the business is run as a genuine enterprise'"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

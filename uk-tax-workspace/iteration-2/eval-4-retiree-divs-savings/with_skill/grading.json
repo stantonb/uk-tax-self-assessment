@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "Identifies pension income uses most of the personal allowance (£12,570)",
+      "passed": true,
+      "evidence": "Response states: 'Your pension of £14,000 is non-savings income. After deducting the Personal Allowance of £12,570, your taxable non-savings income is: £14,000 − £12,570 = £1,430 taxable at basic rate (20%)'"
+    },
+    {
+      "text": "Correctly applies the Personal Savings Allowance (£1,000 for basic rate taxpayer)",
+      "passed": true,
+      "evidence": "Response clearly states: 'As a basic rate taxpayer, your PSA is **£1,000** at 0%.' and applies it in the tax calculation"
+    },
+    {
+      "text": "Considers starting rate for savings (up to £5,000) given low income",
+      "passed": true,
+      "evidence": "Response explains: 'The Starting Rate for Savings provides a 0% band of up to **£5,000** on savings interest... Starting Rate for Savings available: £5,000 − £1,430 = £3,570 at 0%... You have **£3,570 of starting rate band available** — more than enough to cover your entire £1,800 of savings interest.'"
+    },
+    {
+      "text": "Applies the dividend allowance (£500 for 2024/25)",
+      "passed": true,
+      "evidence": "Response states: 'Now apply the Dividend Allowance of **£500** (at 0%), then tax the rest at the basic dividend rate of **8.75%**: Dividend Allowance (0%): £500 → £0 tax'"
+    },
+    {
+      "text": "Calculates tax due on dividends above the allowance at the basic rate (8.75%)",
+      "passed": true,
+      "evidence": "Response calculates: 'Taxable dividends (8.75%): £1,800 → £157.50 tax (£2,300 − £500 = £1,800)'"
+    },
+    {
+      "text": "Addresses whether Self Assessment is needed or if HMRC can adjust the tax code",
+      "passed": true,
+      "evidence": "Response explains: 'You almost certainly need to file a Self Assessment return... dividends or savings interest above allowances' as an explicit Self Assessment filing trigger.'"
+    },
+    {
+      "text": "Provides a numerical estimate of total additional tax owed with workings shown",
+      "passed": true,
+      "evidence": "Response provides: '**Total income tax** | | **£443.50**' and states 'If your pension is already being taxed correctly via PAYE, your additional tax liability through Self Assessment is approximately £157.50.' with clear workings throughout"
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 0,
+    "total": 7,
+    "pass_rate": 1.0
+  }
+}

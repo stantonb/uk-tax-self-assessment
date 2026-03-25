@@ -1,0 +1,13 @@
+{
+  "eval_id": 5,
+  "eval_name": "bank-interest-multiple-accounts",
+  "prompt": "I've got savings spread across a few accounts — my Marcus account earned £870 in interest, my Nationwide account about £320, and I have some NS&I income bonds that paid £410. I also won £500 on Premium Bonds. I earn £48,000 from my job. Do I need to declare all of this? I thought banks sorted out the tax automatically these days.",
+  "assertions": [
+    {"text": "States that Premium Bond prizes are tax-free", "type": "factual"},
+    {"text": "Calculates total taxable interest correctly (£870 + £320 + £410 = £1,600)", "type": "factual"},
+    {"text": "Applies the PSA correctly (£1,000 for basic rate taxpayer at £48,000)", "type": "factual"},
+    {"text": "Calculates tax due on £600 excess interest above PSA", "type": "factual"},
+    {"text": "Explains that banks pay interest gross since 2016 (no automatic tax deduction)", "type": "factual"},
+    {"text": "Explains how HMRC collects the tax (tax code adjustment or Self Assessment)", "type": "factual"}
+  ]
+}

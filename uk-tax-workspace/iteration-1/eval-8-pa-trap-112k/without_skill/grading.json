@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Explains 60% effective rate between £100,000 and £125,140 due to PA tapering",
+      "passed": true,
+      "evidence": "Lines 13-21 explain: 'On the £12,000 you earn between £100,000 and £112,000: You pay 40% Income Tax on it (higher rate band) AND you lose £6,000 of your Personal Allowance (£12,000 / 2). That £6,000 of previously tax-free income now gets taxed at 40%. Effective rate on that slice = 40% + 40% = 60%'"
+    },
+    {
+      "text": "Calculates current PA loss (£112,000 - £100,000 = £12,000; PA reduced by £6,000)",
+      "passed": true,
+      "evidence": "Line 16 shows: 'AND you lose £6,000 of your Personal Allowance (£12,000 / 2)'"
+    },
+    {
+      "text": "Calculates HICBC for 3 children",
+      "passed": true,
+      "evidence": "Lines 41-44 calculate: 'Eldest child: £25.60/week = ~£1,331/year, Each additional child: £16.95/week = ~£881/year each, Total for 3 children: ~£3,094/year'"
+    },
+    {
+      "text": "Recommends increasing salary sacrifice pension to bring ANI below £100,000",
+      "passed": true,
+      "evidence": "Lines 64-66 state: 'To escape the Personal Allowance trap entirely, you need to get your adjusted net income below £100,000. That means contributing an additional £6,400 to your pension via salary sacrifice.' Also line 92: 'Step 1: Increase salary sacrifice to bring adjusted net income to £100,000.'"
+    },
+    {
+      "text": "Calculates the specific additional pension contribution needed to get below £100k",
+      "passed": true,
+      "evidence": "Line 66 explicitly states: 'That means contributing an additional £6,400 to your pension via salary sacrifice.'"
+    },
+    {
+      "text": "Explains NI savings benefit of salary sacrifice vs personal pension contributions",
+      "passed": false,
+      "evidence": "While the response mentions salary sacrifice is key (lines 25-33) and discusses 60% effective tax relief, it does not explicitly separate and explain NI savings as a distinct benefit. The response focuses on tax relief but does not quantify or explain the NI savings component separately."
+    },
+    {
+      "text": "Mentions marriage allowance (wife at £28,000 is basic rate, eligible to transfer)",
+      "passed": false,
+      "evidence": "Lines 111-118 discuss the wife's position but do not explicitly mention Marriage Allowance as an option and why the user is ineligible. The response discusses that the wife is at basic rate and could use her own pension allowances, but does not address Marriage Allowance."
+    },
+    {
+      "text": "Provides quantified total tax savings from recommended strategies",
+      "passed": false,
+      "evidence": "The response provides some figures (line 125: '~£5,000 in tax savings'; line 127: '~£3,094/year in Child Benefit') but does not provide a comprehensive quantified total tax savings figure like the with_skill version does (e.g., '£2,756 for £6,400 contribution' or cumulative savings table)."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 3,
+    "total": 8,
+    "pass_rate": 0.625
+  }
+}

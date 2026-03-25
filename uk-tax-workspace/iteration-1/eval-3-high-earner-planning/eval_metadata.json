@@ -1,0 +1,15 @@
+{
+  "eval_id": 3,
+  "eval_name": "high-earner-tax-planning",
+  "prompt": "I earn £105,000 and my wife doesn't work — she stays home with our two kids and we receive child benefit. I know I'm losing my personal allowance and probably need to pay back child benefit. What's the best way to reduce my tax bill? I have a SIPP and my employer offers salary sacrifice.",
+  "assertions": [
+    {"text": "Explains personal allowance tapering: £1 lost for every £2 over £100,000 creating 60% effective rate", "type": "factual"},
+    {"text": "Calculates or explains the HICBC charge (income between £60,000-£80,000 range for 2024/25)", "type": "factual"},
+    {"text": "Recommends pension contributions to bring adjusted net income below £100,000", "type": "factual"},
+    {"text": "Explains salary sacrifice saves NI contributions compared to personal pension contributions", "type": "factual"},
+    {"text": "Quantifies the amount of pension contribution needed (at least £5,000 to get below £100k)", "type": "factual"},
+    {"text": "Mentions marriage allowance eligibility since wife has no income", "type": "factual"},
+    {"text": "Provides a quantified estimate of total tax savings from recommended strategies", "type": "quality"},
+    {"text": "Includes a disclaimer that this is not professional tax advice", "type": "quality"}
+  ]
+}

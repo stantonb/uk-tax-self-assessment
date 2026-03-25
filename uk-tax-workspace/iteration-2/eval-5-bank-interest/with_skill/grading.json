@@ -1,0 +1,40 @@
+{
+  "expectations": [
+    {
+      "text": "States that Premium Bond prizes are tax-free",
+      "passed": true,
+      "evidence": "Response clearly states: 'Premium Bond prizes are **completely tax-free** and do **not** need to be declared on a Self Assessment return.'"
+    },
+    {
+      "text": "Calculates total taxable interest correctly (£870 + £320 + £410 = £1,600)",
+      "passed": true,
+      "evidence": "Response states: 'Your total taxable savings interest is **£1,600**' and provides breakdown: 'Marcus account interest: £870, Nationwide account interest: £320, NS&I Income Bonds interest: £410'"
+    },
+    {
+      "text": "Applies the PSA correctly (£1,000 for basic rate taxpayer at £48,000)",
+      "passed": true,
+      "evidence": "Response states: 'As a basic rate taxpayer, you are entitled to a **Personal Savings Allowance of £1,000** for 2024/25' and applies it: 'Your total taxable savings interest is **£1,600**... Personal Savings Allowance: -£1,000, **Interest above PSA: £600**'"
+    },
+    {
+      "text": "Calculates tax due on £600 excess interest above PSA",
+      "passed": true,
+      "evidence": "Response calculates: 'The £600 above your PSA is taxable at the basic rate of **20%**, giving a tax liability on savings interest of **£120**.'"
+    },
+    {
+      "text": "Explains that banks pay interest gross since 2016 (no automatic tax deduction)",
+      "passed": true,
+      "evidence": "Response explains: 'Since then, banks and building societies pay all interest **gross** — no tax is deducted at source.'"
+    },
+    {
+      "text": "Explains how HMRC collects the tax (tax code adjustment or Self Assessment)",
+      "passed": true,
+      "evidence": "Response explains both options: '**Option 1 — HMRC adjusts your PAYE tax code**: HMRC receives interest data directly from your banks and NS&I. For relatively modest amounts like £600 of taxable savings interest, HMRC will often collect the tax by reducing your PAYE tax code... **Option 2 — Self Assessment is required**: You would need to file a Self Assessment return if...'"
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 0,
+    "total": 6,
+    "pass_rate": 1.0
+  }
+}

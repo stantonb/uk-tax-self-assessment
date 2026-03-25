@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Explains that every token-to-token swap is a taxable disposal for CGT",
+      "passed": true,
+      "evidence": "Lines 20-23 explicitly state: 'This is the most commonly misunderstood rule in crypto taxation. Every single token-to-token swap is a disposal for CGT purposes — even though you never touched fiat currency.'"
+    },
+    {
+      "text": "States staking rewards are subject to income tax (not CGT)",
+      "passed": true,
+      "evidence": "Section 2 (lines 59-73) clearly states: 'Staking rewards received for validating transactions are treated as income by HMRC, taxable at your marginal Income Tax rate in the year you receive them.'"
+    },
+    {
+      "text": "Addresses LP fees/rewards as income tax",
+      "passed": true,
+      "evidence": "Section 3 (lines 84-98) states: 'The £800 in fees you earned from providing liquidity is treated as income, not a capital gain. It is taxable at your marginal Income Tax rate, in the same way as staking rewards.'"
+    },
+    {
+      "text": "Explains NFT losses can offset other crypto capital gains",
+      "passed": true,
+      "evidence": "Section 4 (lines 106-121) explains: 'Capital losses from NFT sales can be: Offset against your capital gains in the same tax year (e.g. against gains from the Bitcoin sale or ETH swaps).'"
+    },
+    {
+      "text": "Mentions share pooling rules (same-day, 30-day bed and breakfast, S104 pool)",
+      "passed": true,
+      "evidence": "Lines 32-40 detail all three methods: 'Same-day rule — if you acquired ETH on the same day you disposed of it', '30-day bed and breakfast rule — if you acquired ETH in the 30 days after a disposal', 'Section 104 pool — all remaining ETH holdings are pooled together'"
+    },
+    {
+      "text": "Mentions the mid-year CGT rate change on 30 October 2024",
+      "passed": true,
+      "evidence": "Lines 46-55 include a detailed table showing CGT rate changes with the explicit statement: 'For 2024/25 there was a CGT rate change mid-year' with rates before and after 30 October 2024"
+    },
+    {
+      "text": "Mentions SA108 or supplementary pages for reporting CGT",
+      "passed": true,
+      "evidence": "Lines 189-198 state: 'You will need to complete: SA100 (main return) — include staking rewards and LP fee income as miscellaneous income, SA108 (Capital Gains Tax summary pages) — report all crypto disposals'"
+    },
+    {
+      "text": "Provides strong warning or guidance about record-keeping and reconstruction",
+      "passed": true,
+      "evidence": "Section 'The Record-Keeping Problem' (lines 162-187) provides extensive guidance with four detailed steps: pulling transaction history, using crypto tax software, establishing GBP values, and separating income events from disposal events"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

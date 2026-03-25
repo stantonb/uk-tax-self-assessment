@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Distinguishes capital expenses (equipment) from revenue expenses (supplies, website costs)",
+      "passed": true,
+      "evidence": "Lines 13-21 clearly separate revenue expenses (wax, wicks, packaging, website hosting) from capital equipment (melting pot, scales, moulds, camera)."
+    },
+    {
+      "text": "Mentions capital allowances (e.g. Annual Investment Allowance) for equipment",
+      "passed": true,
+      "evidence": "Lines 16-17 explicitly name 'Annual Investment Allowance (AIA)' allowing 'full cost of qualifying equipment in the year of purchase'."
+    },
+    {
+      "text": "Explains sideways loss relief to offset loss against employment income",
+      "passed": true,
+      "evidence": "Lines 44-62 explain sideways loss relief with worked example: £42,000 salary minus £6,600 loss = £35,400, yielding £1,320 tax saving at 20% basic rate."
+    },
+    {
+      "text": "Mentions early years relief as an option for a new business",
+      "passed": false,
+      "evidence": "Line 82-83 only mentions carry-back against 'previous tax year (2023/24)' — a one-year carry-back option. Does not mention the full three-year early years relief available for new businesses starting their first trade."
+    },
+    {
+      "text": "Addresses WFH costs (flat rate or actual proportional costs for spare bedroom)",
+      "passed": true,
+      "evidence": "Line 40 mentions both 'simplified flat rate is £6/week' and 'calculate actual costs based on the proportion of your flat used and hours worked'."
+    },
+    {
+      "text": "Mentions HMRC registration requirement",
+      "passed": true,
+      "evidence": "Line 88 states 'Register for Self Assessment with HMRC if you have not already done so (you should register by 5 October 2025 for the 2024/25 tax year)'."
+    },
+    {
+      "text": "Warns about hobby vs trade test — business must be commercial to claim relief",
+      "passed": true,
+      "evidence": "Lines 68-77 explain 'Badges of Trade' and hobby vs trade distinction, listing supporting factors (business plan, trading name, marketing, invoicing, improving turnover)."
+    },
+    {
+      "text": "Provides a realistic estimate of potential tax saving from the loss",
+      "passed": true,
+      "evidence": "Line 60 states loss relief 'saves you approximately £1,320 in income tax' at 20% basic rate, with additional note about 40% for higher-rate taxpayers."
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 1,
+    "total": 8,
+    "pass_rate": 0.875
+  }
+}

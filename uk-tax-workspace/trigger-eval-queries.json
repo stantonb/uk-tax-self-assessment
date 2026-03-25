@@ -1,0 +1,82 @@
+[
+  {
+    "query": "I just got my P60 from work showing I earned £54,000 last year. My wife and I also rent out our old flat and made about £8,200 profit. I have no idea whether my tax code is right — it says 1257L but I feel like I'm not paying enough tax on the rental income. Do I need to file a self assessment or does HMRC just sort it out?",
+    "should_trigger": true
+  },
+  {
+    "query": "so I've been staking ETH on Lido since about March and I've accumulated roughly 0.8 ETH in rewards, plus I did maybe 15-20 swaps on Uniswap between various tokens. I also minted an NFT collection that completely flopped and I lost about £2k on gas fees. My day job pays £38k. what do I actually owe HMRC on all this crypto stuff??",
+    "should_trigger": true
+  },
+  {
+    "query": "Hi, I'm a freelance graphic designer and I also work part-time at Tesco (about £16k). My freelance income was around £22,000 this year but I spent a LOT on a new Mac, Adobe subscriptions, a desk and chair for my home office (spare room in my rented house). I think I might have actually made a loss when you add it all up. Can I use that loss to get some of my Tesco tax back?",
+    "should_trigger": true
+  },
+  {
+    "query": "my salary just went up to £108,000 and my colleague mentioned something about a '60% tax trap'?? I also get child benefit for 2 kids. should I be panicking? what can I actually do about this — someone said something about putting more into my pension but I don't really understand how that helps",
+    "should_trigger": true
+  },
+  {
+    "query": "I'm 68, retired, getting a state pension of £11,500 and a small private pension of £6,000. I've got about £180,000 in savings across Marcus, Nationwide and some NS&I bonds — earned roughly £7,200 in interest last year. Also have some Vodafone and BP shares paying maybe £1,100 in dividends. Is all of this going to push me into higher rate tax? What's my actual bill?",
+    "should_trigger": true
+  },
+  {
+    "query": "I work for a FTSE 100 company and they offer a Share Incentive Plan. I've got about £12,000 in free shares that have been in the plan for 4 years and I want to take them out to put a deposit on a house. My salary is £45,000. What's the tax hit going to be if I withdraw them now vs waiting another year?",
+    "should_trigger": true
+  },
+  {
+    "query": "my partner and I aren't married but we live together. she earns £95k and I earn £22k. we have a baby and she claims child benefit. she's worried about the high income child benefit charge thing. could we save money if we got married? also is there some kind of marriage tax allowance she keeps mentioning?",
+    "should_trigger": true
+  },
+  {
+    "query": "I started selling homemade candles on Etsy in October, made about £900 in sales but honestly spent way more than that on wax, wicks, packaging and a market stall. I work full time earning £37,000. do I even need to tell HMRC about this? feels like it's barely a business at this point",
+    "should_trigger": true
+  },
+  {
+    "query": "I've maxed out my ISA this year (£20k into a stocks & shares ISA) and I still have about £30k sitting in a general investment account earning dividends and growth. my salary is £72,000. Someone mentioned a 'bed and ISA' strategy — is that worth doing? How does it work with capital gains?",
+    "should_trigger": true
+  },
+  {
+    "query": "I'm on student loan Plan 2 and also have a postgraduate loan. I earn £52,000 from my main job and about £8,000 from freelance web dev on the side. How do the student loan repayments work when you have self-employment income as well? Do I pay extra through self assessment?",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you help me write a Python script to scrape property listings from Rightmove? I want to track rental prices in my area over time and store them in a PostgreSQL database",
+    "should_trigger": false
+  },
+  {
+    "query": "I'm building a React dashboard for my small business and need help setting up authentication with NextAuth.js. The app tracks invoices and expenses. Can you help me with the login flow?",
+    "should_trigger": false
+  },
+  {
+    "query": "I'm trying to understand how the US tax system works — I'm an American expat living in London and I need to file my US federal return. What forms do I need for the Foreign Earned Income Exclusion?",
+    "should_trigger": false
+  },
+  {
+    "query": "I want to set up a limited company in the UK — should I go with Companies House directly or use a formation agent? What are the differences between a sole trader and an Ltd for tax purposes? I'm thinking about corporation tax rates",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you explain how inheritance tax works in the UK? My mum passed away and left her house to me and my sister. The house is worth about £450,000 and she had about £100,000 in savings. Do we need to pay IHT?",
+    "should_trigger": false
+  },
+  {
+    "query": "I need help with my VAT return — I run a small e-commerce business selling to customers in the EU and I'm confused about the One Stop Shop scheme. Do I charge UK VAT or the customer's country's VAT rate?",
+    "should_trigger": false
+  },
+  {
+    "query": "My company is offering me a choice between a £5,000 cash bonus or £5,000 in share options (EMI scheme). I earn £55,000. Which is better from a tax perspective? I know EMI has some special CGT treatment",
+    "should_trigger": false
+  },
+  {
+    "query": "I'm a landlord with 5 buy-to-let properties and I'm thinking about incorporating — moving them all into a limited company. What are the stamp duty implications and is the Section 162 incorporation relief still available?",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me set up a budgeting spreadsheet in Google Sheets that automatically categorizes my bank transactions. I want columns for date, description, amount, and category, with some VLOOKUP formulas to auto-categorize based on merchant names",
+    "should_trigger": false
+  },
+  {
+    "query": "I'm a contractor working through an IR35 arrangement — my client has determined I'm inside IR35. How does the deemed employment payment work and what can I still claim as expenses through my PSC?",
+    "should_trigger": false
+  }
+]

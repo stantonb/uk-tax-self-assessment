@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Explains that every token-to-token swap is a taxable disposal for CGT",
+      "passed": true,
+      "evidence": "Lines 12-13: 'swapping one cryptoasset for another is a **disposal**. It does not matter that you never converted to GBP — exchanging ETH for a DeFi token is treated as if you sold the ETH'. Line 15: 'Each of your 40-50 swaps is therefore a separate CGT event'"
+    },
+    {
+      "text": "States staking rewards are subject to income tax (not CGT)",
+      "passed": true,
+      "evidence": "Lines 40-41: 'staking rewards are **miscellaneous income**' and 'You pay Income Tax on it at your marginal rate (20%, 40%, or 45% depending on your total income)' Also in summary table (line 173): 'Staking rewards | Income Tax (miscellaneous income)'"
+    },
+    {
+      "text": "Addresses LP fees/rewards as income tax",
+      "passed": true,
+      "evidence": "Line 58: 'Fees earned from liquidity provision** are likely to be **miscellaneous income** (similar to staking), taxable at the point of receipt at their GBP market value.' Also in summary table (line 174): 'Uniswap fees | Income Tax (miscellaneous income)'"
+    },
+    {
+      "text": "Explains NFT losses can offset other crypto capital gains",
+      "passed": true,
+      "evidence": "Lines 71-72: 'NFTs are cryptoassets for HMRC purposes. Selling at a loss gives you an **allowable capital loss**, which can be: Set against other capital gains in the same tax year (reducing your CGT bill)' Also in summary table (line 172): 'NFT sales at a loss | CGT (allowable loss) | Reduces overall CGT liability'"
+    },
+    {
+      "text": "Mentions share pooling rules (same-day, 30-day bed and breakfast, S104 pool)",
+      "passed": true,
+      "evidence": "Lines 80-86 provide complete coverage: 'Section 104 pool', 'Same-day rule: If you buy and sell the same asset on the same day', 'Bed-and-breakfasting rule (30-day rule): If you dispose of an asset and reacquire the same asset within 30 days', 'Section 104 pool: All remaining acquisitions of the same asset are pooled together'"
+    },
+    {
+      "text": "Mentions the mid-year CGT rate change on 30 October 2024",
+      "passed": false,
+      "evidence": "Lines 104-108 mention CGT rate change from 'April 2024 (previously 10%/20%)' to '18%/24%' but do NOT specifically identify the 30 October 2024 mid-year change date. The response states rates changed 'from April 2024' but does not reference the specific mid-October 2024 change point that is explicitly mentioned in Run A"
+    },
+    {
+      "text": "Mentions SA108 or supplementary pages for reporting CGT",
+      "passed": true,
+      "evidence": "Lines 149-152: 'Use the **SA108** (Capital Gains Summary) supplementary page. List each disposal (or use the \"other property, assets and gains\" box with a summary if there are too many to list individually)'"
+    },
+    {
+      "text": "Provides strong warning or guidance about record-keeping and reconstruction",
+      "passed": true,
+      "evidence": "Lines 125-142: 'What to Do About Poor Records' section with five-step approach: 1) Export on-chain transaction history, 2) Use crypto tax software, 3) Reconstruct GBP values, 4) Obtain exchange records, 5) Consider specialist accountant. Also lines 158-162 provide warning about HMRC data powers and discovery assessments reaching back 4-20 years"
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 1,
+    "total": 8,
+    "pass_rate": 0.875
+  }
+}

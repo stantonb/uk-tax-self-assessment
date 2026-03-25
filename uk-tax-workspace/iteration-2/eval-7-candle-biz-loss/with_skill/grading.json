@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Distinguishes capital expenses (equipment) from revenue expenses (supplies, website costs)",
+      "passed": true,
+      "evidence": "Section 3 (lines 46-75) clearly distinguishes equipment as capital (with AIA/cash basis relief), while raw materials/supplies and website are 'fully deductible' revenue expenses with a summary table at lines 70-75"
+    },
+    {
+      "text": "Mentions capital allowances (e.g. Annual Investment Allowance) for equipment",
+      "passed": true,
+      "evidence": "Lines 48-50 state: 'However, you can claim Annual Investment Allowance (AIA), which provides 100% tax relief on qualifying plant and machinery in the year of purchase.'"
+    },
+    {
+      "text": "Explains sideways loss relief to offset loss against employment income",
+      "passed": true,
+      "evidence": "Section 6 (lines 155-165) explain sideways relief with concrete example: 'using the business loss to reduce your employment income in the same tax year, thereby getting a tax refund' with a calculation showing tax saving of approximately £1,320"
+    },
+    {
+      "text": "Mentions early years relief as an option for a new business",
+      "passed": true,
+      "evidence": "Section 6 (lines 186-192) explain: 'Because you are in the first four years of a new trade, you have access to Early Years Relief. This lets you carry the loss back against your general income (including salary) of the three tax years before the loss year'"
+    },
+    {
+      "text": "Addresses WFH costs (flat rate or actual proportional costs for spare bedroom)",
+      "passed": true,
+      "evidence": "Section 4 (lines 82-117) provides both methods: flat rate method with monthly amounts (£10, £18, £26 depending on hours) and actual costs method with calculation example (room proportion, time proportion, combined proportion)"
+    },
+    {
+      "text": "Mentions HMRC registration requirement",
+      "passed": true,
+      "evidence": "Section 2 (lines 22-34) states: 'You must register as self-employed with HMRC and file a Self Assessment tax return' with registration deadline: 5 October 2025 and filing deadline: 31 January 2026"
+    },
+    {
+      "text": "Warns about hobby vs trade test — business must be commercial to claim relief",
+      "passed": true,
+      "evidence": "Section 7 (lines 196-215) explain: 'This is important because HMRC will not allow sideways relief if they conclude your activity is a hobby rather than a genuine commercial trade' with HMRC's six evaluation criteria listed"
+    },
+    {
+      "text": "Provides a realistic estimate of potential tax saving from the loss",
+      "passed": true,
+      "evidence": "Lines 159-163 provide specific calculation: 'Tax saving: approximately £1,320' (20% of £6,600 trading loss on £42,000 salary)"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Explains 60% effective rate between £100,000 and £125,140 due to PA tapering",
+      "passed": true,
+      "evidence": "Lines 11-30 explicitly explain the mechanism: 'On each extra £2 you earn above £100,000: You pay 40% income tax on those £2 = 80p of tax, You also lose £1 of Personal Allowance = 40p of tax, Total tax on £2 of extra income = £1.20, i.e. 60%'"
+    },
+    {
+      "text": "Calculates current PA loss (£112,000 - £100,000 = £12,000; PA reduced by £6,000)",
+      "passed": true,
+      "evidence": "Lines 19-33 state: 'You are £12,000 above the £100,000 threshold, so £12,000 of your income is in this 60% effective rate band' and 'At your current salary of £112,000, your Personal Allowance is reduced to: £12,570 − (£12,000 / 2) = £6,570 (reduced by £6,000)'"
+    },
+    {
+      "text": "Calculates HICBC for 3 children",
+      "passed": true,
+      "evidence": "Section 'Issue 2: The High Income Child Benefit Charge' (lines 38-57) provides detailed calculation: Annual Child Benefit £3,094 total, and at ANI £112,000 'the full £3,094 is clawed back' as user is well past the £80,000 threshold"
+    },
+    {
+      "text": "Recommends increasing salary sacrifice pension to bring ANI below £100,000",
+      "passed": true,
+      "evidence": "Section 'The Solution: Increase Your Pension Contributions via Salary Sacrifice' (lines 74-128) extensively recommends this strategy with subsection 'Target 1: Restore the Full Personal Allowance (bring ANI to £100,000)' at lines 117-128"
+    },
+    {
+      "text": "Calculates the specific additional pension contribution needed to get below £100k",
+      "passed": true,
+      "evidence": "Lines 117-128 calculate: 'Starting from ANI of £106,400: Additional contributions needed: £6,400' to restore full allowance, and lines 131-139 calculate £46,400 needed to reach ANI of £60,000"
+    },
+    {
+      "text": "Explains NI savings benefit of salary sacrifice vs personal pension contributions",
+      "passed": true,
+      "evidence": "Lines 76-85 explain: 'You pay less income tax (fewer pounds are taxable), You pay less employee NI (lower gross pay = lower NI liability), Your employer pays less employer NI (a saving employers sometimes share back)'"
+    },
+    {
+      "text": "Mentions marriage allowance (wife at £28,000 is basic rate, eligible to transfer)",
+      "passed": true,
+      "evidence": "Lines 166-175 address marriage allowance, correctly noting the user is NOT eligible: 'Marriage Allowance is only available where the receiving spouse is a basic rate taxpayer (income up to £50,270). At £112,000 you are a higher rate taxpayer, so this does not apply to you.'"
+    },
+    {
+      "text": "Provides quantified total tax savings from recommended strategies",
+      "passed": true,
+      "evidence": "Lines 124-128 provide specific calculations: 'Tax saving on those £6,400: at an effective 60% marginal rate = £3,840 saved in income tax, NI saving at 2% = £128, Total saving: approximately £3,968 on a £6,400 contribution'"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

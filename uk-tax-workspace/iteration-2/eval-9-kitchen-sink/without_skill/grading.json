@@ -1,0 +1,55 @@
+{
+  "expectations": [
+    {
+      "text": "Correctly reduces employment income by salary sacrifice (£95,000 - £5,700 = £89,300)",
+      "passed": true,
+      "evidence": "Step 1 clearly states: 'You contribute 6% of £95,000 = **£5,700** via salary sacrifice' and 'Your adjusted gross employment income becomes **£89,300**'. The calculation is presented correctly and used consistently throughout."
+    },
+    {
+      "text": "Calculates self-employment profit (£11,000 - £3,000 = £8,000)",
+      "passed": true,
+      "evidence": "Step 2 shows income summary table with 'Freelance consulting | £11,000 | £3,000 (expenses) | £8,000' and later Step 9 confirms 'Net freelance profit: £8,000'. The calculation is correctly identified."
+    },
+    {
+      "text": "Addresses rental income tax treatment",
+      "passed": true,
+      "evidence": "Step 7 provides detailed rental property treatment: 'Rental profit after expenses: £6,200 (this presumably means after all expenses **except** mortgage interest)' and explains the Section 24 mortgage interest restriction with a 20% tax credit mechanism (£4,800 × 20% = £960). Includes note that taxable rental income is £6,200 with credit of £960."
+    },
+    {
+      "text": "Applies CGT annual exempt amount to the crypto gain",
+      "passed": true,
+      "evidence": "Step 6 applies the AEA: 'CGT Annual Exempt Amount for 2025/26: **£3,000**' and 'Taxable gain: £7,200 − £3,000 = **£4,200**'. Correctly applies the exemption to the Ethereum disposal."
+    },
+    {
+      "text": "Explains token swaps are separate taxable disposals",
+      "passed": true,
+      "evidence": "Step 6 explains: 'Swapping one cryptocurrency for another is a **disposal for CGT purposes** under HMRC rules. Each swap is treated as selling the first token at its market value at the time of the swap. You need to calculate the gain or loss on each swap.' Mentions reporting thresholds and need for detailed tracking."
+    },
+    {
+      "text": "Calculates or mentions HICBC given total income level",
+      "passed": true,
+      "evidence": "Step 8 provides HICBC analysis: Calculates child benefit (£2,212.60 for 2 children), identifies ANI of £103,500 'well above £80,000 where the charge reaches 100%', and concludes 'HICBC: £2,212.60 (you repay all of it via Self Assessment)'. Provides options for handling the charge."
+    },
+    {
+      "text": "Mentions Class 2 and/or Class 4 NI on self-employment profits",
+      "passed": true,
+      "evidence": "Step 5 addresses self-employment NI: 'Class 2: Flat rate of £3.45/week if profits exceed £12,570 small profits threshold. Your profit of £8,000 is **below** the £12,570 threshold, so **no compulsory Class 2 is due**.' Also states 'Class 4: Rate: 6% on profits between £12,570 and £50,270; 2% above £50,270. Your profits of £8,000 are below the lower limit. **Class 4 NI: £0**'."
+    },
+    {
+      "text": "Provides a combined tax liability estimate or step-by-step breakdown",
+      "passed": true,
+      "evidence": "Step 10 provides 'Full Summary of Liabilities' table itemizing: Income Tax (£29,032), mortgage interest credit (-£960), Employee NI (£3,797), Class 2/4 NI (~£179/£0), CGT (£1,008), HICBC (£2,213), Student Loan (~£7,066), with Grand Total of **~£42,335**. Detailed step-by-step breakdown provided throughout."
+    },
+    {
+      "text": "Recommends pension strategy to reduce ANI below £100k if applicable",
+      "passed": true,
+      "evidence": "Step 12 provides comprehensive pension planning recommendations: 'Your ANI is £103,500 — just £3,500 above the £100,000 threshold' and recommends 'additional pension contributions of **£3,500**' to bring ANI to £100,000. Further recommends £23,500 to reach £80,000 and eliminate HICBC, showing 'approximately £12,313' in savings. Discusses salary sacrifice vs SIPP options and annual allowance considerations."
+    }
+  ],
+  "summary": {
+    "passed": 9,
+    "failed": 0,
+    "total": 9,
+    "pass_rate": 1.0
+  }
+}

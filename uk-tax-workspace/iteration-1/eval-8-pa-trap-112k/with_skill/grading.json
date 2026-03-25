@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Explains 60% effective rate between £100,000 and £125,140 due to PA tapering",
+      "passed": true,
+      "evidence": "Lines 27-32 clearly explain: 'On the income between £100,000 and £125,140, you simultaneously: 1. Pay 40% higher rate income tax on that income itself, AND 2. Lose £1 of tax-free allowance for every £2 earned — which means £1 of previously untaxed income becomes taxable at 40%. The combined effect: 40% tax on the income itself + 40% tax on the lost allowance = effectively 60% marginal rate on income in this band.'"
+    },
+    {
+      "text": "Calculates current PA loss (£112,000 - £100,000 = £12,000; PA reduced by £6,000)",
+      "passed": true,
+      "evidence": "Lines 21-23 show: 'At your current income of £112,000, you are £12,000 over the £100,000 threshold. £12,000 ÷ 2 = £6,000 of personal allowance lost.'"
+    },
+    {
+      "text": "Calculates HICBC for 3 children",
+      "passed": true,
+      "evidence": "Lines 84-88 calculate: 'Eldest child: £25.60/week, Child 2: £16.95/week, Child 3: £16.95/week, Total weekly: £59.50, Total annual Child Benefit: £59.50 × 52 = £3,094'"
+    },
+    {
+      "text": "Recommends increasing salary sacrifice pension to bring ANI below £100,000",
+      "passed": true,
+      "evidence": "Lines 122-127 state: 'The single most powerful thing you can do is increase your salary sacrifice pension contributions to bring your ANI down to £100,000. Minimum target: Get ANI to £100,000 (additional £6,400 per year) to escape the PA trap.'"
+    },
+    {
+      "text": "Calculates the specific additional pension contribution needed to get below £100k",
+      "passed": true,
+      "evidence": "Line 126 explicitly states: 'Additional pension contribution needed: £6,400' for the target ANI of £100,000"
+    },
+    {
+      "text": "Explains NI savings benefit of salary sacrifice vs personal pension contributions",
+      "passed": true,
+      "evidence": "Lines 180-188 explain: 'Because your contributions are through salary sacrifice, you save Employee NI on the sacrificed amount... At your income level, your salary is above the Upper Earnings Limit (£50,270), so employee NI on the additional contributions is only 2%... But even at 2%, it adds up.' Also quantifies in line 134: '£6,400 × 2% = £128 in NI savings'"
+    },
+    {
+      "text": "Mentions marriage allowance (wife at £28,000 is basic rate, eligible to transfer)",
+      "passed": true,
+      "evidence": "Lines 192-196 state: 'Your wife earns £28,000. A quick note on Marriage Allowance... However, you are not eligible because Marriage Allowance is only available where the recipient (you) is a basic rate taxpayer. You are a higher rate taxpayer, so this does not apply to you.'"
+    },
+    {
+      "text": "Provides quantified total tax savings from recommended strategies",
+      "passed": true,
+      "evidence": "Multiple scenarios with quantified savings: Line 135: '£6,400 × 2% = £128 in NI savings'; Line 133-136: 'You gain back tax on £6,570 of income at 40% = £2,628 in tax savings... Total tax and NI saved: approximately £2,756'; Line 237 summary table: 'Escape PA trap only: ~£2,756; Reduce HICBC by 50%: ~£7,756; Eliminate HICBC entirely: ~£10,850+'"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

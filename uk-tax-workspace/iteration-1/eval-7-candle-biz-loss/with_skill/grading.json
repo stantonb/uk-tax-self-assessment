@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Distinguishes capital expenses (equipment) from revenue expenses (supplies, website costs)",
+      "passed": true,
+      "evidence": "Lines 15-29 clearly separate revenue expenses (supplies, website) from capital expenditure (equipment with lasting value), explaining AIA treatment and cash basis applicability."
+    },
+    {
+      "text": "Mentions capital allowances (e.g. Annual Investment Allowance) for equipment",
+      "passed": true,
+      "evidence": "Lines 27-29 explicitly name 'Annual Investment Allowance (AIA)' providing '100% relief in the year of purchase' and explain cash basis simplification."
+    },
+    {
+      "text": "Explains sideways loss relief to offset loss against employment income",
+      "passed": true,
+      "evidence": "Lines 47-67 provide detailed explanation of sideways loss relief with clear worked example: £42,000 salary less £6,600 loss = £35,400 taxable income, yielding £1,320 tax saving."
+    },
+    {
+      "text": "Mentions early years relief as an option for a new business",
+      "passed": true,
+      "evidence": "Lines 71-82 explicitly discuss 'Early Years Loss Relief' allowing carry-back against 'three tax years before the loss year' (2023/24, 2022/23, 2021/22)."
+    },
+    {
+      "text": "Addresses WFH costs (flat rate or actual proportional costs for spare bedroom)",
+      "passed": true,
+      "evidence": "Lines 128-145 provide both methods: flat rate option (£10-26/month based on hours worked) and actual cost proportion method with detailed guidance."
+    },
+    {
+      "text": "Mentions HMRC registration requirement",
+      "passed": true,
+      "evidence": "Lines 149-165 explicitly state 'you must register for Self Assessment and file a return' with deadlines (5 October 2025, 31 January 2026) and registration process details."
+    },
+    {
+      "text": "Warns about hobby vs trade test — business must be commercial to claim relief",
+      "passed": true,
+      "evidence": "Lines 89-100 explain HMRC hobby vs trade test, listing assessment criteria (expectation of profit, businesslike operation, time dedication, growth steps) and advising record-keeping."
+    },
+    {
+      "text": "Provides a realistic estimate of potential tax saving from the loss",
+      "passed": true,
+      "evidence": "Line 65 calculates: £6,600 loss × 20% basic rate = £1,320 tax saving. Summarized again at line 178."
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

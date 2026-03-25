@@ -1,0 +1,55 @@
+{
+  "expectations": [
+    {
+      "text": "Correctly reduces employment income by salary sacrifice (£95,000 - £5,700 = £89,300)",
+      "passed": true,
+      "evidence": "Step 1 explicitly states: 'You contribute **6% of £95,000 = £5,700** via salary sacrifice' and 'your taxable employment income is: **£95,000 - £5,700 = £89,300**'. This calculation is correctly presented and used throughout the analysis."
+    },
+    {
+      "text": "Calculates self-employment profit (£11,000 - £3,000 = £8,000)",
+      "passed": true,
+      "evidence": "Step 7 states: '**Taxable self-employment profit**: £11,000 - £3,000 = **£8,000**'. This is explicitly calculated and correctly identified."
+    },
+    {
+      "text": "Addresses rental income tax treatment",
+      "passed": true,
+      "evidence": "Step 6 provides comprehensive rental income treatment including: 'Rental profit after expenses (excluding mortgage interest): **£6,200**' and detailed explanation of the mortgage interest restriction under Section 24, including the 20% tax credit mechanism and net tax cost calculation (£1,520)."
+    },
+    {
+      "text": "Applies CGT annual exempt amount to the crypto gain",
+      "passed": true,
+      "evidence": "Step 8 correctly applies the annual exempt amount: 'Annual Exempt Amount: £3,000 for 2024/25. Taxable gain: £7,200 - £3,000 = **£4,200**'. The document also discusses how the AEA is used and mentions it can be aggregated with token swap gains."
+    },
+    {
+      "text": "Explains token swaps are separate taxable disposals",
+      "passed": true,
+      "evidence": "Step 8 explicitly states: 'Every token-to-token swap is a **taxable disposal** under HMRC rules' and provides detailed explanation: 'When you swapped \"some other tokens around,\" each swap triggered a CGT calculation at that moment, using the GBP market value at the time of the swap as both the disposal proceeds and the acquisition cost for the new tokens.' Includes share pooling rules and record-keeping requirements."
+    },
+    {
+      "text": "Calculates or mentions HICBC given total income level",
+      "passed": true,
+      "evidence": "Step 9 provides comprehensive HICBC analysis: Calculates child benefit (£2,212.60), confirms ANI of £101,000 is above £80,000 threshold, and states 'the full child benefit is clawed back' resulting in 'HICBC = 100% of Child Benefit received = £2,212.60'. Includes planning options."
+    },
+    {
+      "text": "Mentions Class 2 and/or Class 4 NI on self-employment profits",
+      "passed": true,
+      "evidence": "Step 7 addresses both: 'Class 4 National Insurance on self-employment profits: Profits of £8,000 are above the £12,570 Lower Profits Limit — wait, £8,000 is actually *below* £12,570, so **no Class 4 NIC is due**.' Also states: 'Class 2 NIC: The Small Profits Threshold is £6,725. Your profits of £8,000 exceed this... Class 2 NIC is no longer mandatory... you can make **voluntary Class 2 contributions at £3.45/week**'."
+    },
+    {
+      "text": "Provides a combined tax liability estimate or step-by-step breakdown",
+      "passed": true,
+      "evidence": "Step 13 provides a consolidated tax position summary table with line items including: income tax (£28,932), mortgage interest credit (-£960), Gift Aid relief (-£500), HICBC (£2,213), CGT (£1,008), student loan (£1,278), etc. Estimates 'total SA liability (before PAYE offset): **~£31,971 + token swap CGT**'."
+    },
+    {
+      "text": "Recommends pension strategy to reduce ANI below £100k if applicable",
+      "passed": true,
+      "evidence": "The response identifies the £100k trap and provides explicit recommendation in Step 4: 'An additional pension contribution of just £1,000 gross (or slightly above to be safe) into a relief-at-source arrangement would bring your ANI back down to £100,000 and fully restore your personal allowance, saving you around £500 in additional tax at effectively 60% marginal relief.' Section 'What You Should Be Doing Differently' expands this into detailed action plan."
+    }
+  ],
+  "summary": {
+    "passed": 9,
+    "failed": 0,
+    "total": 9,
+    "pass_rate": 1.0
+  }
+}

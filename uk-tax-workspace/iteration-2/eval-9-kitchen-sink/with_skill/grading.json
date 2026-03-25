@@ -1,0 +1,55 @@
+{
+  "expectations": [
+    {
+      "text": "Correctly reduces employment income by salary sacrifice (£95,000 - £5,700 = £89,300)",
+      "passed": true,
+      "evidence": "Lines 11-18 state: 'Your gross salary is £95,000. Your employer runs salary sacrifice pension at 6%, meaning: Salary sacrifice amount: £95,000 x 6% = £5,700, Your adjusted gross (contractual) salary after sacrifice: £89,300'"
+    },
+    {
+      "text": "Calculates self-employment profit (£11,000 - £3,000 = £8,000)",
+      "passed": true,
+      "evidence": "Lines 125-128 state: 'Your numbers: Gross income: £11,000, Allowable expenses: £3,000, Taxable profit: £8,000'"
+    },
+    {
+      "text": "Addresses rental income tax treatment",
+      "passed": true,
+      "evidence": "Section 'Step 6: Rental Income' (lines 151-168) addresses rental income comprehensively, including calculation of tax at 40% rate, mortgage interest restriction, and basic rate credit on finance costs"
+    },
+    {
+      "text": "Applies CGT annual exempt amount to the crypto gain",
+      "passed": true,
+      "evidence": "Lines 88-92 state: 'Annual exempt amount: £3,000, Net chargeable gain: £7,200 - £3,000 = £4,200'"
+    },
+    {
+      "text": "Explains token swaps are separate taxable disposals",
+      "passed": true,
+      "evidence": "Lines 106-120 explain in Section 'Token swaps — this is a critical point': 'Under HMRC rules, swapping one cryptoasset for another is a disposal for CGT purposes. Each swap is a taxable event. For each swap you need to know: The GBP value of the tokens you disposed of, The cost basis of those tokens, The gain or loss on each swap'"
+    },
+    {
+      "text": "Calculates or mentions HICBC given total income level",
+      "passed": true,
+      "evidence": "Section 'Step 7: High Income Child Benefit Charge (HICBC)' (lines 171-199) calculates HICBC of approximately £2,213 for 2 children and notes that at ANI of approximately £103,500 'the entire Child Benefit is clawed back'"
+    },
+    {
+      "text": "Mentions Class 2 and/or Class 4 NI on self-employment profits",
+      "passed": true,
+      "evidence": "Lines 131-144 explain: 'Class 4 NIC on your self-employment profits through SA: Profits between £12,570 and £50,270: 6%, Profits above £50,270: 2%' and separately address Class 2 NIC: 'From April 2024, Class 2 NIC is no longer mandatory'"
+    },
+    {
+      "text": "Provides a combined tax liability estimate or step-by-step breakdown",
+      "passed": true,
+      "evidence": "Lines 253-263 provide 'Consolidated Tax Position — Approximate Summary' table with detailed breakdown of all components: Income tax, PAYE deductions, income tax balancing payment, Class 4 NIC, CGT, HICBC, totaling estimated SA balancing payment of £9,000–£10,500"
+    },
+    {
+      "text": "Recommends pension strategy to reduce ANI below £100k if applicable",
+      "passed": true,
+      "evidence": "Lines 269-273 state: 'The personal allowance trap (£100k+): You are inside the 60% effective marginal rate zone. Making additional pension contributions of ~£3,500 restores your full personal allowance and saves approximately £2,100 in extra tax.'"
+    }
+  ],
+  "summary": {
+    "passed": 9,
+    "failed": 0,
+    "total": 9,
+    "pass_rate": 1.0
+  }
+}

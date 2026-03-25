@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Explains personal allowance tapering: £1 lost for every £2 over £100,000 creating 60% effective rate",
+      "passed": true,
+      "evidence": "Response clearly explains the taper mechanism (lines 13-15) and explicitly calculates the 60% effective marginal rate, stating 'The income trapped in the taper zone (£100,000 to £125,140) faces an effective marginal rate of 60%: 40% higher-rate income tax on the income itself. Plus the effect of losing £1 of allowance for every £2 earned, which means an additional 40% tax on the lost allowance. Total: 60% effective marginal rate' (lines 17-20)"
+    },
+    {
+      "text": "Calculates or explains the HICBC charge (income between £60,000-£80,000 range for 2024/25)",
+      "passed": true,
+      "evidence": "Response explains 'Between £60,000 and £80,000: you repay 1% of child benefit received for every £200 of income above £60,000' and 'Above £80,000: you repay 100% of child benefit received' (lines 28-29)"
+    },
+    {
+      "text": "Recommends pension contributions to bring adjusted net income below £100,000",
+      "passed": true,
+      "evidence": "Response recommends 'Sacrifice enough salary to bring your adjusted net income to or below £100,000. At £105,000 that means sacrificing at least £5,000' (lines 60) and provides example showing ANI falling to £100,000 (line 63)"
+    },
+    {
+      "text": "Explains salary sacrifice saves NI contributions compared to personal pension contributions",
+      "passed": true,
+      "evidence": "Lines 54-57 state that salary sacrifice provides 'National Insurance saving' and line 86 explicitly compares: 'Personal SIPP contributions do not save National Insurance (neither yours nor your employer's), so salary sacrifice is more efficient if available'"
+    },
+    {
+      "text": "Quantifies the amount of pension contribution needed (at least £5,000 to get below £100k)",
+      "passed": true,
+      "evidence": "Response states 'sacrificing at least £5,000' (line 60) and provides detailed quantification: 'Tax saving: approximately £5,000 x 60% = £3,000 (income tax alone). NI saving: £5,000 x 2% = £100' (lines 65-66)"
+    },
+    {
+      "text": "Mentions marriage allowance eligibility since wife has no income",
+      "passed": false,
+      "evidence": "Response acknowledges wife has no income (line 140) but explicitly states Marriage Allowance is NOT available: 'The Marriage Allowance also exists (transferring up to £1,260 of unused personal allowance to a basic-rate taxpayer spouse), but it is only available if the higher earner pays tax at the basic rate. As a 40% taxpayer, you do not qualify' (lines 143-144). The assertion expects mention of eligibility, but this response correctly notes ineligibility."
+    },
+    {
+      "text": "Provides a quantified estimate of total tax savings from recommended strategies",
+      "passed": true,
+      "evidence": "Response provides multiple quantified savings estimates in the example (lines 62-67) showing '~£3,100 (tax + NI)' and lines 128-133 include a comprehensive summary table with tax savings ranging from '~£15,500' to '~£27,000+'"
+    },
+    {
+      "text": "Includes a disclaimer that this is not professional tax advice",
+      "passed": true,
+      "evidence": "Response includes explicit disclaimer: 'This response provides general information based on 2025/26 UK tax rules as understood at the time of writing. Tax rules change frequently and individual circumstances vary. You should consult a qualified tax adviser or chartered accountant' (lines 147-149)"
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 1,
+    "total": 8,
+    "pass_rate": 0.875
+  }
+}

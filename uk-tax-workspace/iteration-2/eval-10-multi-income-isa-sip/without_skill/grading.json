@@ -1,0 +1,55 @@
+{
+  "expectations": [
+    {
+      "text": "Identifies user as higher rate taxpayer (40%)",
+      "passed": true,
+      "evidence": "States: 'At £67,000 you are a higher rate taxpayer. This is relevant for every other part of your return because your dividend tax rate, savings rate, and CGT rate are all affected by your position in the tax bands.'"
+    },
+    {
+      "text": "Applies dividend allowance (£500) and taxes excess at 33.75%",
+      "passed": true,
+      "evidence": "States: 'For 2024/25 the dividend allowance is £500' and 'Tax due on dividends: £2,900 x 33.75% = approximately £978.'"
+    },
+    {
+      "text": "Applies PSA correctly (£500 for higher rate) to savings interest",
+      "passed": true,
+      "evidence": "States: 'For 2024/25, the Personal Savings Allowance (PSA) for a higher rate taxpayer is £500' and 'Tax due on savings interest: £450 x 40% = £180.'"
+    },
+    {
+      "text": "Explains SIP free shares held 3 years: partial income tax applies on sale",
+      "passed": true,
+      "evidence": "Explicitly explains the tiered system: '**Held less than 3 years**: Income tax and NI are due on their value when withdrawn. **Held between 3 and 5 years**: Income tax is due on the lower of the original market value or the value at withdrawal. **Held 5 or more years**: Completely free of income tax and NI.'"
+    },
+    {
+      "text": "Explains SIP partnership shares bought from pre-tax salary",
+      "passed": true,
+      "evidence": "States: 'Partnership shares are shares you buy out of your pre-tax salary. The key tax benefit is: The £1,800 is deducted from your gross salary before income tax and NI are calculated.'"
+    },
+    {
+      "text": "Applies CGT annual exempt amount (£3,000) to the £2,800 gain — no CGT due",
+      "passed": true,
+      "evidence": "States: 'For 2024/25 the Capital Gains Tax (CGT) annual exempt amount is £3,000. Your gain is £2,800, which is below the £3,000 annual exempt amount. Therefore: - No CGT is due on this gain.'"
+    },
+    {
+      "text": "Confirms ISA income/gains are completely tax-free and not reportable",
+      "passed": true,
+      "evidence": "States: 'ISA income and gains are completely exempt from tax. You do not report your ISA on your self assessment return at all — not the contributions, not the income, not any gains.'"
+    },
+    {
+      "text": "Recommends bed and ISA strategy to shelter GIA holdings",
+      "passed": true,
+      "evidence": "States: 'Bed and ISA strategy — For your GIA shares, consider a \"Bed and ISA\" approach: sell shares in the GIA to crystallise gains (using your £3,000 annual CGT exempt amount each year), then repurchase inside the ISA.'"
+    },
+    {
+      "text": "Provides numerical tax calculations with workings",
+      "passed": true,
+      "evidence": "Provides clear calculations with workings: 'Tax due on dividends: £2,900 x 33.75% = approximately £978' and 'Tax due on savings interest: £450 x 40% = £180' with a structured summary table"
+    }
+  ],
+  "summary": {
+    "passed": 9,
+    "failed": 0,
+    "total": 9,
+    "pass_rate": 1.0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Explains that every token-to-token swap is a taxable disposal for CGT",
+      "passed": true,
+      "evidence": "Line 27: 'each of your 40-50 swaps is a separate CGT event'. Also clearly stated in overview table (line 13) and Section 1 heading (line 23): 'HMRC treats every one of the following as a taxable disposal — even where no GBP ever changes hands: Swapping ETH for a DeFi token'"
+    },
+    {
+      "text": "States staking rewards are subject to income tax (not CGT)",
+      "passed": true,
+      "evidence": "Line 89: 'Staking rewards from Ethereum are treated as **income** by HMRC at the market value in GBP on the date you received each reward.' Also in overview table (line 16): 'Staking rewards (~£1,200) | Income Tax'"
+    },
+    {
+      "text": "Addresses LP fees/rewards as income tax",
+      "passed": true,
+      "evidence": "Line 95: 'Fees earned from providing liquidity in a DeFi protocol are treated as **DeFi yield / income**, not capital gains.' Also in overview table (line 17): 'Uniswap liquidity pool fees (~£800) | Income Tax (DeFi yield)'"
+    },
+    {
+      "text": "Explains NFT losses can offset other crypto capital gains",
+      "passed": true,
+      "evidence": "Line 43: 'Your NFT losses should be netted against your gains.' Also line 29: 'Selling an NFT (even at a loss)' listed as a taxable disposal, and throughout the CGT section losses are discussed as offsetting gains"
+    },
+    {
+      "text": "Mentions share pooling rules (same-day, 30-day bed and breakfast, S104 pool)",
+      "passed": true,
+      "evidence": "Lines 62-70 provide complete coverage: 'Section 104 Pool', 'Same-day rule: If you bought and sold the same token on the same day', '30-day bed and breakfast rule: If you disposed of a token and then bought the same token again within 30 days', 'Section 104 pool: All remaining tokens of the same type are pooled together'"
+    },
+    {
+      "text": "Mentions the mid-year CGT rate change on 30 October 2024",
+      "passed": true,
+      "evidence": "Lines 47-58: 'There was a rate change on **30 October 2024**, which is significant if you were trading across both periods' followed by detailed table showing rates before and after this date with clear period demarcation"
+    },
+    {
+      "text": "Mentions SA108 or supplementary pages for reporting CGT",
+      "passed": true,
+      "evidence": "Lines 76-82: 'You must complete the SA108 Capital Gains pages if: Your total net gains exceed the £3,000 annual exempt amount, **or** Your total disposal **proceeds** across all crypto (and other CGT assets) exceed **£12,000**' Also line 162: 'SA108 (CGT summary pages): Report all crypto disposals'"
+    },
+    {
+      "text": "Provides strong warning or guidance about record-keeping and reconstruction",
+      "passed": true,
+      "evidence": "Lines 105-133: Entire 'Section 3: The Records Problem — What to Do Now' with four-step practical reconstruction approach: 1) Gather Exchange and Wallet Data, 2) Use Crypto Tax Software, 3) Establish GBP Values at Transaction Dates, 4) Consider a Specialist Crypto Accountant. Strong warning at line 107: 'HMRC can open enquiries up to 4 years after filing (and 6 years for careless errors)'"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

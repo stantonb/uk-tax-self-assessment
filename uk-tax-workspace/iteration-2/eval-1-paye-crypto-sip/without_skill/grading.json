@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Correctly identifies the user as a higher rate (40%) taxpayer",
+      "passed": true,
+      "evidence": "Line 19: 'Because your salary is £72,000, you are a higher-rate taxpayer' with explicit 40% rate shown in tax bands table"
+    },
+    {
+      "text": "Mentions the CGT annual exempt amount (£3,000 for 2024/25)",
+      "passed": true,
+      "evidence": "Line 69: 'For 2024/25, the Capital Gains Tax Annual Exempt Amount is £3,000'"
+    },
+    {
+      "text": "Explains the mid-year CGT rate change on 30 October 2024 or different rates before/after that date",
+      "passed": true,
+      "evidence": "Line 81: 'From 30 October 2024 (Autumn Budget 2024), the CGT rates on non-property assets increased. The rate for higher-rate taxpayers rose from 20% to 24% for disposals made on or after 30 October 2024'"
+    },
+    {
+      "text": "Explains SIP 3-5 year holding period means partial income tax and NI liability on shares",
+      "passed": true,
+      "evidence": "Lines 98-99: 'Shares held for 3 to 5 years: You will pay Income Tax and NIC on the lower of (a) the market value at withdrawal or (b) the market value at acquisition' with explanation of how this applies to the user"
+    },
+    {
+      "text": "States Plan 2 student loan repayment threshold (£27,295) and rate (9%)",
+      "passed": true,
+      "evidence": "Lines 48-50: 'Plan 2 repayments apply at 9% on income above the Plan 2 threshold' and 'For 2024/25, the Plan 2 threshold is £27,295'"
+    },
+    {
+      "text": "Calculates or explains the student loan repayment amount",
+      "passed": true,
+      "evidence": "Lines 52-54: Complete calculation shown: 'Income above threshold: £72,000 - £27,295 = £44,705' and 'Repayment: £44,705 × 9% = £4,023.45'"
+    },
+    {
+      "text": "Mentions Self Assessment filing requirement",
+      "passed": true,
+      "evidence": "Line 143: 'Yes, you must register for and complete a Self Assessment tax return for 2024/25' with detailed trigger explanation about cryptocurrency disposal requiring reporting"
+    },
+    {
+      "text": "Includes a disclaimer that this is not professional tax advice",
+      "passed": true,
+      "evidence": "Line 181: 'Disclaimer: This analysis is for informational purposes and is based on UK tax legislation... You should consider seeking advice from a qualified tax adviser'"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

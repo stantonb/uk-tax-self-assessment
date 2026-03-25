@@ -1,0 +1,15 @@
+{
+  "eval_id": 7,
+  "eval_name": "loss-making-side-business-seeded",
+  "prompt": "I started a small candle-making business in June 2024 while working my day job (£42,000 salary). I put in £8,000 of my own savings to buy equipment, supplies, and set up a website. I've only made about £1,400 in sales so far. I work on it evenings and weekends from my spare bedroom in my rented flat. My partner says I should just write it off on my taxes but I'm not sure how that works. Can the money I put in count as a business expense? Can I get tax back on the loss?",
+  "assertions": [
+    {"text": "Distinguishes capital expenses (equipment) from revenue expenses (supplies, website costs)", "type": "factual"},
+    {"text": "Mentions capital allowances (e.g. Annual Investment Allowance) for equipment", "type": "factual"},
+    {"text": "Explains sideways loss relief to offset loss against employment income", "type": "factual"},
+    {"text": "Mentions early years relief as an option for a new business", "type": "factual"},
+    {"text": "Addresses WFH costs (flat rate or actual proportional costs for spare bedroom)", "type": "factual"},
+    {"text": "Mentions HMRC registration requirement", "type": "factual"},
+    {"text": "Warns about hobby vs trade test — business must be commercial to claim relief", "type": "quality"},
+    {"text": "Provides a realistic estimate of potential tax saving from the loss", "type": "quality"}
+  ]
+}

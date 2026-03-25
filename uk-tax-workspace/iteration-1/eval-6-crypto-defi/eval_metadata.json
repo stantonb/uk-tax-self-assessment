@@ -1,0 +1,15 @@
+{
+  "eval_id": 6,
+  "eval_name": "crypto-heavy-trader-defi",
+  "prompt": "I've been pretty active in crypto this year. I swapped ETH for various DeFi tokens maybe 40-50 times, earned about £1,200 in staking rewards from Ethereum, provided liquidity on Uniswap and got about £800 in fees, sold some NFTs at a loss, and cashed out about £12,000 of bitcoin to GBP. I haven't kept great records tbh. What am I looking at tax-wise and how do I even calculate all this for my self assessment?",
+  "assertions": [
+    {"text": "Explains that every token-to-token swap is a taxable disposal for CGT", "type": "factual"},
+    {"text": "States staking rewards are subject to income tax (not CGT)", "type": "factual"},
+    {"text": "Addresses LP fees/rewards as income tax", "type": "factual"},
+    {"text": "Explains NFT losses can offset other crypto capital gains", "type": "factual"},
+    {"text": "Mentions share pooling rules (same-day, 30-day bed and breakfast, S104 pool)", "type": "factual"},
+    {"text": "Mentions the mid-year CGT rate change on 30 October 2024", "type": "factual"},
+    {"text": "Mentions SA108 or supplementary pages for reporting CGT", "type": "factual"},
+    {"text": "Provides strong warning or guidance about record-keeping and reconstruction", "type": "quality"}
+  ]
+}

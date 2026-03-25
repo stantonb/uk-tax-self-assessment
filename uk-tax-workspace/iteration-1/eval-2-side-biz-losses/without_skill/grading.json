@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Explains the business has made a trading loss (revenue minus expenses)",
+      "passed": true,
+      "evidence": "Opening section shows 'Apparent trading loss: £2,300 (£3,200 - £5,500)' and Section 5 provides detailed analysis of the trading loss"
+    },
+    {
+      "text": "Mentions sideways loss relief as an option to offset the loss against nursing income",
+      "passed": true,
+      "evidence": "Section 5 Option A explicitly titled 'Offset Against Other Income in the Same Tax Year (Most Beneficial)' with detailed explanation showing £460 tax refund example"
+    },
+    {
+      "text": "Distinguishes capital expenditure (laptop) from revenue expenses (subscriptions, advertising)",
+      "passed": true,
+      "evidence": "Section 3 clearly separates 'Laptop (capital expenditure)' with AIA/First Year Allowances treatment from 'Software Subscriptions' and 'Advertising' as revenue expenses"
+    },
+    {
+      "text": "Explains WFH expense options: flat rate vs proportional actual costs",
+      "passed": true,
+      "evidence": "Section 4 presents 'Method 1: HMRC Flat Rate (Simplified Expenses)' with table and 'Method 2: Actual Cost Apportionment' with detailed calculation examples"
+    },
+    {
+      "text": "Addresses the rent question with proportional calculation method (room proportion x time proportion)",
+      "passed": true,
+      "evidence": "Section 4 Method 2 shows calculation 'Room proportion: 1 out of 4 rooms = 25%' and 'Daily time proportion: 4 hours/day business use = 4/24 = 16.7%' combined as '£14,400 x 25% x 16.7%'"
+    },
+    {
+      "text": "Mentions HMRC self-employment registration requirement and deadline",
+      "passed": true,
+      "evidence": "Section 1 states 'You should have registered by 5 October 2025 for the 2024/25 tax year' with reference to HMRC registration requirement"
+    },
+    {
+      "text": "Mentions Self Assessment filing requirement",
+      "passed": true,
+      "evidence": "Section 1 clearly requires tax return filing with 'Online return: 31 January 2026' deadline"
+    },
+    {
+      "text": "Warns about hobby vs trade test or commercial basis requirement for loss relief",
+      "passed": true,
+      "evidence": "Section 5 includes subsection 'Hobby vs Trade — A Risk to Be Aware Of' discussing HMRC challenge risks and 'badges of trade' test for genuine business determination"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

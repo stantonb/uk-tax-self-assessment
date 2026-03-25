@@ -1,0 +1,14 @@
+{
+  "eval_id": 4,
+  "eval_name": "retiree-dividends-savings",
+  "prompt": "I'm retired, I get a small pension of £14,000 a year, have about £1,800 in savings interest from various accounts, and received £2,300 in dividends from my share portfolio (not in an ISA). Do I need to do a self assessment? How much extra tax would I owe?",
+  "assertions": [
+    {"text": "Identifies pension income uses most of the personal allowance (£12,570)", "type": "factual"},
+    {"text": "Correctly applies the Personal Savings Allowance (£1,000 for basic rate taxpayer)", "type": "factual"},
+    {"text": "Considers starting rate for savings (up to £5,000) given low income", "type": "factual"},
+    {"text": "Applies the dividend allowance (£500 for 2024/25)", "type": "factual"},
+    {"text": "Calculates tax due on dividends above the allowance at the basic rate (8.75%)", "type": "factual"},
+    {"text": "Addresses whether Self Assessment is needed or if HMRC can adjust the tax code", "type": "factual"},
+    {"text": "Provides a numerical estimate of total additional tax owed with workings shown", "type": "quality"}
+  ]
+}

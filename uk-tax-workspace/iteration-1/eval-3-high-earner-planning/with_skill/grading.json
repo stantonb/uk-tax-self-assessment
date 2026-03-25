@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Explains personal allowance tapering: £1 lost for every £2 over £100,000 creating 60% effective rate",
+      "passed": true,
+      "evidence": "Response clearly explains the taper mechanism (lines 23-28) and explicitly calculates the 60% effective marginal rate: '40p tax on the income + 20p tax on the lost allowance = 60p effective tax per £1 earned' (lines 32-38)"
+    },
+    {
+      "text": "Calculates or explains the HICBC charge (income between £60,000-£80,000 range for 2024/25)",
+      "passed": true,
+      "evidence": "Response explicitly states 'The HICBC threshold is £60,000. The full charge applies at £80,000. Between those points, the charge is 1% of total Child Benefit for every £200 of ANI above £60,000' (lines 60-61)"
+    },
+    {
+      "text": "Recommends pension contributions to bring adjusted net income below £100,000",
+      "passed": true,
+      "evidence": "Response recommends reducing ANI to £100,000 (lines 40-45) and explicitly prioritizes 'Maximise salary sacrifice up to the amount that reduces your ANI to £100,000' (lines 130-131)"
+    },
+    {
+      "text": "Explains salary sacrifice saves NI contributions compared to personal pension contributions",
+      "passed": true,
+      "evidence": "Lines 80-88 explicitly compare both methods, stating salary sacrifice saves 'income tax AND National Insurance' while personal pension contributions save 'income tax only (via Self Assessment)'"
+    },
+    {
+      "text": "Quantifies the amount of pension contribution needed (at least £5,000 to get below £100k)",
+      "passed": true,
+      "evidence": "Response clearly states that 'At £105,000, a £5,000 salary sacrifice saves:' and provides detailed quantification of the total saving (~£3,100) including income tax, NI, and personal allowance restoration (lines 90-94)"
+    },
+    {
+      "text": "Mentions marriage allowance eligibility since wife has no income",
+      "passed": false,
+      "evidence": "Response mentions the wife has no income but explicitly states Marriage Allowance is NOT available: 'As a higher rate taxpayer at £105,000, you are ineligible' (lines 158-160). The assertion expects mention of eligibility, but this response correctly notes ineligibility."
+    },
+    {
+      "text": "Provides a quantified estimate of total tax savings from recommended strategies",
+      "passed": true,
+      "evidence": "Response provides multiple quantified savings estimates: '~£3,100' (line 94), '~£1,000' (line 44), '~£9,000 income tax + NI savings' (line 143), '~£17,000+' (line 144), and a comprehensive summary table (lines 140-144)"
+    },
+    {
+      "text": "Includes a disclaimer that this is not professional tax advice",
+      "passed": true,
+      "evidence": "Response opens with explicit disclaimer: 'This response provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions.' (line 3)"
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 1,
+    "total": 8,
+    "pass_rate": 0.875
+  }
+}

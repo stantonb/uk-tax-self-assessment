@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "Identifies pension income uses most of the personal allowance (£12,570)",
+      "passed": true,
+      "evidence": "Lines 32-36 clearly show: 'Pension income: £14,000, Personal Allowance used against pension: £12,570, Pension taxable at basic rate: £14,000 - £12,570 = £1,430'. The calculation is explicit and correct."
+    },
+    {
+      "text": "Correctly applies the Personal Savings Allowance (£1,000 for basic rate taxpayer)",
+      "passed": true,
+      "evidence": "Line 46 states 'Basic rate taxpayers get £1,000 of savings interest tax-free.' The response correctly identifies the PSA amount for basic rate taxpayers and notes that it's not additionally needed since the starting rate covers the savings interest."
+    },
+    {
+      "text": "Considers starting rate for savings (up to £5,000) given low income",
+      "passed": true,
+      "evidence": "Lines 44-45 explain the starting rate for savings calculation: 'Starting Rate for Savings: Up to £5,000 at 0%... Your pension is £14,000, which is £1,430 above the Personal Allowance. This means the Starting Rate band is reduced by £1,430, leaving: £5,000 - £1,430 = £3,570 still available at 0%. Your savings interest of £1,800 is fully within this £3,570 band.' The logic and calculation are correct."
+    },
+    {
+      "text": "Applies the dividend allowance (£500 for 2024/25)",
+      "passed": true,
+      "evidence": "Line 52 explicitly states: 'Dividend Allowance: £500 (this was reduced from £1,000 to £500 from April 2024, i.e., the 2024/25 tax year onwards)'. Line 53 applies it: 'Taxable dividends: £2,300 - £500 = £1,800'. The allowance is correctly identified and applied."
+    },
+    {
+      "text": "Calculates tax due on dividends above the allowance at the basic rate (8.75%)",
+      "passed": true,
+      "evidence": "Lines 55-56 show: 'Dividend basic rate tax: 8.75%, Tax on dividends: £1,800 × 8.75% = £157.50'. The calculation is explicit and correct."
+    },
+    {
+      "text": "Addresses whether Self Assessment is needed or if HMRC can adjust the tax code",
+      "passed": false,
+      "evidence": "Lines 18-22 state Self Assessment is needed due to dividends exceeding allowance. However, line 81 states 'HMRC may adjust your pension tax code to collect the dividend tax automatically in future years, meaning you might not need to file a return every year.' This creates ambiguity about whether SA is truly necessary initially, which contradicts the strong affirmation in earlier lines. The response should more clearly distinguish between initial SA requirement and future code adjustment possibilities. Run A provides clearer guidance on this distinction."
+    },
+    {
+      "text": "Provides a numerical estimate of total additional tax owed with workings shown",
+      "passed": true,
+      "evidence": "Lines 62-67 provide a summary table showing: Tax from PAYE on pension ~£286, Extra tax on savings £0, Extra tax on dividends £157.50, Additional tax to pay via Self Assessment £157.50. Line 87 states 'You owe approximately £157.50 in extra tax.' Workings are shown with the £1,800 × 8.75% calculation at lines 55-56."
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 1,
+    "total": 7,
+    "pass_rate": 0.857
+  }
+}

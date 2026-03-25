@@ -1,0 +1,15 @@
+{
+  "eval_id": 8,
+  "eval_name": "pa-trap-100-120k-earner",
+  "prompt": "I just got a pay rise to £112,000 and my accountant friend mentioned something about losing my personal allowance which means I'm effectively paying 60% tax on some of my income?? That sounds mad. I also get child benefit for our 3 kids. I've got a workplace pension where my employer puts in 5% and I put in 5% through salary sacrifice. What can I do to not get absolutely hammered? Should I put more in my pension? My wife earns about £28,000.",
+  "assertions": [
+    {"text": "Explains 60% effective rate between £100,000 and £125,140 due to PA tapering", "type": "factual"},
+    {"text": "Calculates current PA loss (£112,000 - £100,000 = £12,000; PA reduced by £6,000)", "type": "factual"},
+    {"text": "Calculates HICBC for 3 children", "type": "factual"},
+    {"text": "Recommends increasing salary sacrifice pension to bring ANI below £100,000", "type": "factual"},
+    {"text": "Calculates the specific additional pension contribution needed to get below £100k", "type": "factual"},
+    {"text": "Explains NI savings benefit of salary sacrifice vs personal pension contributions", "type": "factual"},
+    {"text": "Mentions marriage allowance (wife at £28,000 is basic rate, eligible to transfer)", "type": "factual"},
+    {"text": "Provides quantified total tax savings from recommended strategies", "type": "quality"}
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Correctly identifies the user as a higher rate (40%) taxpayer",
+      "passed": true,
+      "evidence": "Response explicitly states: 'At £72,000, your income already exceeds the basic rate band (£50,270). This means you are a **higher rate taxpayer** for CGT purposes'"
+    },
+    {
+      "text": "Mentions the CGT annual exempt amount (£3,000 for 2024/25)",
+      "passed": true,
+      "evidence": "Response clearly states: 'For 2024/25, the CGT Annual Exempt Amount is **£3,000**'"
+    },
+    {
+      "text": "Explains the mid-year CGT rate change on 30 October 2024 or different rates before/after that date",
+      "passed": true,
+      "evidence": "Response provides detailed explanation with table showing: '6 Apr 2024 – 29 Oct 2024: 20% (higher rate taxpayer)' and '30 Oct 2024 – 5 Apr 2025: 24% (higher rate taxpayer)'"
+    },
+    {
+      "text": "Explains SIP 3-5 year holding period means partial income tax and NI liability on shares",
+      "passed": true,
+      "evidence": "Response explains the 3-5 year tier: 'Lower of market value at award OR market value at withdrawal — taxed as employment income' and provides example: 'At £72,000, your marginal rate is **40%** (plus NI at **2%** above the Upper Earnings Limit of £50,270). The combined income tax and NI cost on that £5,000 would be approximately £2,100.'"
+    },
+    {
+      "text": "States Plan 2 student loan repayment threshold (£27,295) and rate (9%)",
+      "passed": true,
+      "evidence": "Response states: '**9% of income above £27,295** per year'"
+    },
+    {
+      "text": "Calculates or explains the student loan repayment amount",
+      "passed": true,
+      "evidence": "Response calculates: 'At £72,000: Income above threshold: £72,000 − £27,295 = **£44,705**, Annual repayment due: £44,705 × 9% = **£4,023**'"
+    },
+    {
+      "text": "Mentions Self Assessment filing requirement",
+      "passed": true,
+      "evidence": "Response clearly states: '**Yes.** You have a capital gain above the Annual Exempt Amount (£4,500 gain vs £3,000 exempt amount — net taxable gain of £1,500). Capital gains that result in a tax liability must be reported via Self Assessment.'"
+    },
+    {
+      "text": "Includes a disclaimer that this is not professional tax advice",
+      "passed": true,
+      "evidence": "Response begins with: '**DISCLAIMER**: This response provides general tax information only. It is NOT professional tax advice. Tax situations vary — always verify with HMRC guidance or a qualified accountant before making decisions.'"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

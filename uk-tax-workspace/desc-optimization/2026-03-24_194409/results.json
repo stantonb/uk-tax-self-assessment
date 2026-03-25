@@ -1,0 +1,1390 @@
+{
+  "exit_reason": "max_iterations (5)",
+  "original_description": "Provides an overview of the UK Self Assessment tax return process, key deadlines, who needs to file, and how to register with HMRC. Make sure to use this skill whenever the user mentions Self Assessment, SA100, tax returns, filing deadlines, registering for self assessment, UTR numbers, HMRC online services, or asks anything about whether they need to file a tax return \u2014 even if they don't use the exact phrase 'Self Assessment'.",
+  "best_description": "Provides an overview of the UK Self Assessment tax return process, key deadlines, who needs to file, and how to register with HMRC. Make sure to use this skill whenever the user mentions Self Assessment, SA100, tax returns, filing deadlines, registering for self assessment, UTR numbers, HMRC online services, or asks anything about whether they need to file a tax return \u2014 even if they don't use the exact phrase 'Self Assessment'.",
+  "best_score": "4/8",
+  "best_train_score": "6/12",
+  "best_test_score": "4/8",
+  "final_description": "Use this skill whenever someone shares personal financial details in pounds (\u00a3) and wants to understand their UK tax situation. The trigger pattern is simple: a real person describing their income, earnings, or financial circumstances and asking what tax they owe, whether something is taxable, or what to do about it. This includes ANY combination of: salary, freelance income, rental profits, pensions, state pension, savings interest, dividends, share schemes (SIP/SAYE), crypto gains, student loan repayments, child benefit charges, marriage allowance, P60 or tax code concerns. If someone gives you numbers and asks a UK tax question \u2014 use this skill. Do NOT use for: writing code, building spreadsheets, business incorporation advice, IR35 determinations, or strategic compensation comparisons.",
+  "iterations_run": 5,
+  "holdout": 0.4,
+  "train_size": 12,
+  "test_size": 8,
+  "history": [
+    {
+      "iteration": 1,
+      "description": "Provides an overview of the UK Self Assessment tax return process, key deadlines, who needs to file, and how to register with HMRC. Make sure to use this skill whenever the user mentions Self Assessment, SA100, tax returns, filing deadlines, registering for self assessment, UTR numbers, HMRC online services, or asks anything about whether they need to file a tax return \u2014 even if they don't use the exact phrase 'Self Assessment'.",
+      "train_passed": 6,
+      "train_failed": 6,
+      "train_total": 12,
+      "train_results": [
+        {
+          "query": "my partner and I aren't married but we live together. she earns \u00a395k and I earn \u00a322k. we have a baby and she claims child benefit. she's worried about the high income child benefit charge thing. could we save money if we got married? also is there some kind of marriage tax allowance she keeps mentioning?",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm on student loan Plan 2 and also have a postgraduate loan. I earn \u00a352,000 from my main job and about \u00a38,000 from freelance web dev on the side. How do the student loan repayments work when you have self-employment income as well? Do I pay extra through self assessment?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I just got my P60 from work showing I earned \u00a354,000 last year. My wife and I also rent out our old flat and made about \u00a38,200 profit. I have no idea whether my tax code is right \u2014 it says 1257L but I feel like I'm not paying enough tax on the rental income. Do I need to file a self assessment or does HMRC just sort it out?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm 68, retired, getting a state pension of \u00a311,500 and a small private pension of \u00a36,000. I've got about \u00a3180,000 in savings across Marcus, Nationwide and some NS&I bonds \u2014 earned roughly \u00a37,200 in interest last year. Also have some Vodafone and BP shares paying maybe \u00a31,100 in dividends. Is all of this going to push me into higher rate tax? What's my actual bill?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "so I've been staking ETH on Lido since about March and I've accumulated roughly 0.8 ETH in rewards, plus I did maybe 15-20 swaps on Uniswap between various tokens. I also minted an NFT collection that completely flopped and I lost about \u00a32k on gas fees. My day job pays \u00a338k. what do I actually owe HMRC on all this crypto stuff??",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm building a React dashboard for my small business and need help setting up authentication with NextAuth.js. The app tracks invoices and expenses. Can you help me with the login flow?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I work for a FTSE 100 company and they offer a Share Incentive Plan. I've got about \u00a312,000 in free shares that have been in the plan for 4 years and I want to take them out to put a deposit on a house. My salary is \u00a345,000. What's the tax hit going to be if I withdraw them now vs waiting another year?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm a landlord with 5 buy-to-let properties and I'm thinking about incorporating \u2014 moving them all into a limited company. What are the stamp duty implications and is the Section 162 incorporation relief still available?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Help me set up a budgeting spreadsheet in Google Sheets that automatically categorizes my bank transactions. I want columns for date, description, amount, and category, with some VLOOKUP formulas to auto-categorize based on merchant names",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Can you help me write a Python script to scrape property listings from Rightmove? I want to track rental prices in my area over time and store them in a PostgreSQL database",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm a contractor working through an IR35 arrangement \u2014 my client has determined I'm inside IR35. How does the deemed employment payment work and what can I still claim as expenses through my PSC?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "My company is offering me a choice between a \u00a35,000 cash bonus or \u00a35,000 in share options (EMI scheme). I earn \u00a355,000. Which is better from a tax perspective? I know EMI has some special CGT treatment",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "test_passed": 4,
+      "test_failed": 4,
+      "test_total": 8,
+      "test_results": [
+        {
+          "query": "I started selling homemade candles on Etsy in October, made about \u00a3900 in sales but honestly spent way more than that on wax, wicks, packaging and a market stall. I work full time earning \u00a337,000. do I even need to tell HMRC about this? feels like it's barely a business at this point",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "Hi, I'm a freelance graphic designer and I also work part-time at Tesco (about \u00a316k). My freelance income was around \u00a322,000 this year but I spent a LOT on a new Mac, Adobe subscriptions, a desk and chair for my home office (spare room in my rented house). I think I might have actually made a loss when you add it all up. Can I use that loss to get some of my Tesco tax back?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "my salary just went up to \u00a3108,000 and my colleague mentioned something about a '60% tax trap'?? I also get child benefit for 2 kids. should I be panicking? what can I actually do about this \u2014 someone said something about putting more into my pension but I don't really understand how that helps",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I need help with my VAT return \u2014 I run a small e-commerce business selling to customers in the EU and I'm confused about the One Stop Shop scheme. Do I charge UK VAT or the customer's country's VAT rate?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I've maxed out my ISA this year (\u00a320k into a stocks & shares ISA) and I still have about \u00a330k sitting in a general investment account earning dividends and growth. my salary is \u00a372,000. Someone mentioned a 'bed and ISA' strategy \u2014 is that worth doing? How does it work with capital gains?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I want to set up a limited company in the UK \u2014 should I go with Companies House directly or use a formation agent? What are the differences between a sole trader and an Ltd for tax purposes? I'm thinking about corporation tax rates",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm trying to understand how the US tax system works \u2014 I'm an American expat living in London and I need to file my US federal return. What forms do I need for the Foreign Earned Income Exclusion?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Can you explain how inheritance tax works in the UK? My mum passed away and left her house to me and my sister. The house is worth about \u00a3450,000 and she had about \u00a3100,000 in savings. Do we need to pay IHT?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "passed": 6,
+      "failed": 6,
+      "total": 12,
+      "results": [
+        {
+          "query": "my partner and I aren't married but we live together. she earns \u00a395k and I earn \u00a322k. we have a baby and she claims child benefit. she's worried about the high income child benefit charge thing. could we save money if we got married? also is there some kind of marriage tax allowance she keeps mentioning?",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm on student loan Plan 2 and also have a postgraduate loan. I earn \u00a352,000 from my main job and about \u00a38,000 from freelance web dev on the side. How do the student loan repayments work when you have self-employment income as well? Do I pay extra through self assessment?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I just got my P60 from work showing I earned \u00a354,000 last year. My wife and I also rent out our old flat and made about \u00a38,200 profit. I have no idea whether my tax code is right \u2014 it says 1257L but I feel like I'm not paying enough tax on the rental income. Do I need to file a self assessment or does HMRC just sort it out?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm 68, retired, getting a state pension of \u00a311,500 and a small private pension of \u00a36,000. I've got about \u00a3180,000 in savings across Marcus, Nationwide and some NS&I bonds \u2014 earned roughly \u00a37,200 in interest last year. Also have some Vodafone and BP shares paying maybe \u00a31,100 in dividends. Is all of this going to push me into higher rate tax? What's my actual bill?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "so I've been staking ETH on Lido since about March and I've accumulated roughly 0.8 ETH in rewards, plus I did maybe 15-20 swaps on Uniswap between various tokens. I also minted an NFT collection that completely flopped and I lost about \u00a32k on gas fees. My day job pays \u00a338k. what do I actually owe HMRC on all this crypto stuff??",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm building a React dashboard for my small business and need help setting up authentication with NextAuth.js. The app tracks invoices and expenses. Can you help me with the login flow?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I work for a FTSE 100 company and they offer a Share Incentive Plan. I've got about \u00a312,000 in free shares that have been in the plan for 4 years and I want to take them out to put a deposit on a house. My salary is \u00a345,000. What's the tax hit going to be if I withdraw them now vs waiting another year?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm a landlord with 5 buy-to-let properties and I'm thinking about incorporating \u2014 moving them all into a limited company. What are the stamp duty implications and is the Section 162 incorporation relief still available?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Help me set up a budgeting spreadsheet in Google Sheets that automatically categorizes my bank transactions. I want columns for date, description, amount, and category, with some VLOOKUP formulas to auto-categorize based on merchant names",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Can you help me write a Python script to scrape property listings from Rightmove? I want to track rental prices in my area over time and store them in a PostgreSQL database",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm a contractor working through an IR35 arrangement \u2014 my client has determined I'm inside IR35. How does the deemed employment payment work and what can I still claim as expenses through my PSC?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "My company is offering me a choice between a \u00a35,000 cash bonus or \u00a35,000 in share options (EMI scheme). I earn \u00a355,000. Which is better from a tax perspective? I know EMI has some special CGT treatment",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "iteration": 2,
+      "description": "Use this skill as the entry point for ANY UK personal tax question. Trigger whenever a user asks about their tax liability, what they owe HMRC, whether income is taxable, or how to report income \u2014 even if they never mention \"Self Assessment.\" This includes questions about rental income, freelance/side income, savings interest, dividends, crypto gains, share schemes, pensions, child benefit charges, student loan repayments via tax, marriage allowance, capital gains, or any combination of UK income sources. If someone describes their UK income situation and asks what tax they owe or what to do, use this skill. Do NOT trigger for programming tasks, spreadsheet help, or non-UK tax topics.",
+      "train_passed": 5,
+      "train_failed": 7,
+      "train_total": 12,
+      "train_results": [
+        {
+          "query": "my partner and I aren't married but we live together. she earns \u00a395k and I earn \u00a322k. we have a baby and she claims child benefit. she's worried about the high income child benefit charge thing. could we save money if we got married? also is there some kind of marriage tax allowance she keeps mentioning?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I work for a FTSE 100 company and they offer a Share Incentive Plan. I've got about \u00a312,000 in free shares that have been in the plan for 4 years and I want to take them out to put a deposit on a house. My salary is \u00a345,000. What's the tax hit going to be if I withdraw them now vs waiting another year?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm on student loan Plan 2 and also have a postgraduate loan. I earn \u00a352,000 from my main job and about \u00a38,000 from freelance web dev on the side. How do the student loan repayments work when you have self-employment income as well? Do I pay extra through self assessment?",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm 68, retired, getting a state pension of \u00a311,500 and a small private pension of \u00a36,000. I've got about \u00a3180,000 in savings across Marcus, Nationwide and some NS&I bonds \u2014 earned roughly \u00a37,200 in interest last year. Also have some Vodafone and BP shares paying maybe \u00a31,100 in dividends. Is all of this going to push me into higher rate tax? What's my actual bill?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I just got my P60 from work showing I earned \u00a354,000 last year. My wife and I also rent out our old flat and made about \u00a38,200 profit. I have no idea whether my tax code is right \u2014 it says 1257L but I feel like I'm not paying enough tax on the rental income. Do I need to file a self assessment or does HMRC just sort it out?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "so I've been staking ETH on Lido since about March and I've accumulated roughly 0.8 ETH in rewards, plus I did maybe 15-20 swaps on Uniswap between various tokens. I also minted an NFT collection that completely flopped and I lost about \u00a32k on gas fees. My day job pays \u00a338k. what do I actually owe HMRC on all this crypto stuff??",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm building a React dashboard for my small business and need help setting up authentication with NextAuth.js. The app tracks invoices and expenses. Can you help me with the login flow?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm a landlord with 5 buy-to-let properties and I'm thinking about incorporating \u2014 moving them all into a limited company. What are the stamp duty implications and is the Section 162 incorporation relief still available?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "My company is offering me a choice between a \u00a35,000 cash bonus or \u00a35,000 in share options (EMI scheme). I earn \u00a355,000. Which is better from a tax perspective? I know EMI has some special CGT treatment",
+          "should_trigger": false,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "Can you help me write a Python script to scrape property listings from Rightmove? I want to track rental prices in my area over time and store them in a PostgreSQL database",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm a contractor working through an IR35 arrangement \u2014 my client has determined I'm inside IR35. How does the deemed employment payment work and what can I still claim as expenses through my PSC?",
+          "should_trigger": false,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Help me set up a budgeting spreadsheet in Google Sheets that automatically categorizes my bank transactions. I want columns for date, description, amount, and category, with some VLOOKUP formulas to auto-categorize based on merchant names",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "test_passed": 4,
+      "test_failed": 4,
+      "test_total": 8,
+      "test_results": [
+        {
+          "query": "I started selling homemade candles on Etsy in October, made about \u00a3900 in sales but honestly spent way more than that on wax, wicks, packaging and a market stall. I work full time earning \u00a337,000. do I even need to tell HMRC about this? feels like it's barely a business at this point",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "my salary just went up to \u00a3108,000 and my colleague mentioned something about a '60% tax trap'?? I also get child benefit for 2 kids. should I be panicking? what can I actually do about this \u2014 someone said something about putting more into my pension but I don't really understand how that helps",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I've maxed out my ISA this year (\u00a320k into a stocks & shares ISA) and I still have about \u00a330k sitting in a general investment account earning dividends and growth. my salary is \u00a372,000. Someone mentioned a 'bed and ISA' strategy \u2014 is that worth doing? How does it work with capital gains?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "Hi, I'm a freelance graphic designer and I also work part-time at Tesco (about \u00a316k). My freelance income was around \u00a322,000 this year but I spent a LOT on a new Mac, Adobe subscriptions, a desk and chair for my home office (spare room in my rented house). I think I might have actually made a loss when you add it all up. Can I use that loss to get some of my Tesco tax back?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I want to set up a limited company in the UK \u2014 should I go with Companies House directly or use a formation agent? What are the differences between a sole trader and an Ltd for tax purposes? I'm thinking about corporation tax rates",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I need help with my VAT return \u2014 I run a small e-commerce business selling to customers in the EU and I'm confused about the One Stop Shop scheme. Do I charge UK VAT or the customer's country's VAT rate?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm trying to understand how the US tax system works \u2014 I'm an American expat living in London and I need to file my US federal return. What forms do I need for the Foreign Earned Income Exclusion?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Can you explain how inheritance tax works in the UK? My mum passed away and left her house to me and my sister. The house is worth about \u00a3450,000 and she had about \u00a3100,000 in savings. Do we need to pay IHT?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "passed": 5,
+      "failed": 7,
+      "total": 12,
+      "results": [
+        {
+          "query": "my partner and I aren't married but we live together. she earns \u00a395k and I earn \u00a322k. we have a baby and she claims child benefit. she's worried about the high income child benefit charge thing. could we save money if we got married? also is there some kind of marriage tax allowance she keeps mentioning?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I work for a FTSE 100 company and they offer a Share Incentive Plan. I've got about \u00a312,000 in free shares that have been in the plan for 4 years and I want to take them out to put a deposit on a house. My salary is \u00a345,000. What's the tax hit going to be if I withdraw them now vs waiting another year?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm on student loan Plan 2 and also have a postgraduate loan. I earn \u00a352,000 from my main job and about \u00a38,000 from freelance web dev on the side. How do the student loan repayments work when you have self-employment income as well? Do I pay extra through self assessment?",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm 68, retired, getting a state pension of \u00a311,500 and a small private pension of \u00a36,000. I've got about \u00a3180,000 in savings across Marcus, Nationwide and some NS&I bonds \u2014 earned roughly \u00a37,200 in interest last year. Also have some Vodafone and BP shares paying maybe \u00a31,100 in dividends. Is all of this going to push me into higher rate tax? What's my actual bill?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I just got my P60 from work showing I earned \u00a354,000 last year. My wife and I also rent out our old flat and made about \u00a38,200 profit. I have no idea whether my tax code is right \u2014 it says 1257L but I feel like I'm not paying enough tax on the rental income. Do I need to file a self assessment or does HMRC just sort it out?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "so I've been staking ETH on Lido since about March and I've accumulated roughly 0.8 ETH in rewards, plus I did maybe 15-20 swaps on Uniswap between various tokens. I also minted an NFT collection that completely flopped and I lost about \u00a32k on gas fees. My day job pays \u00a338k. what do I actually owe HMRC on all this crypto stuff??",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm building a React dashboard for my small business and need help setting up authentication with NextAuth.js. The app tracks invoices and expenses. Can you help me with the login flow?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm a landlord with 5 buy-to-let properties and I'm thinking about incorporating \u2014 moving them all into a limited company. What are the stamp duty implications and is the Section 162 incorporation relief still available?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "My company is offering me a choice between a \u00a35,000 cash bonus or \u00a35,000 in share options (EMI scheme). I earn \u00a355,000. Which is better from a tax perspective? I know EMI has some special CGT treatment",
+          "should_trigger": false,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "Can you help me write a Python script to scrape property listings from Rightmove? I want to track rental prices in my area over time and store them in a PostgreSQL database",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm a contractor working through an IR35 arrangement \u2014 my client has determined I'm inside IR35. How does the deemed employment payment work and what can I still claim as expenses through my PSC?",
+          "should_trigger": false,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Help me set up a budgeting spreadsheet in Google Sheets that automatically categorizes my bank transactions. I want columns for date, description, amount, and category, with some VLOOKUP formulas to auto-categorize based on merchant names",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "iteration": 3,
+      "description": "Use this skill when someone describes their UK income, earnings, or financial situation and asks about tax \u2014 even if they never say \"Self Assessment\" or \"tax return.\" Trigger for: people listing their income sources (salary, rental, freelance, pensions, savings, dividends, crypto, shares) and asking what they owe, what's taxable, whether they need to file, or how to report it to HMRC. Also trigger for child benefit charge, marriage allowance, student loan repayment via tax, P60/tax code queries, or retirement income tax questions. The key signal is a person working out their UK tax position across one or more income types. Do NOT trigger for: programming tasks, spreadsheet help, business incorporation/structure advice, IR35 status questions, or pure tax-strategy comparisons between compensation options.",
+      "train_passed": 8,
+      "train_failed": 4,
+      "train_total": 12,
+      "train_results": [
+        {
+          "query": "my partner and I aren't married but we live together. she earns \u00a395k and I earn \u00a322k. we have a baby and she claims child benefit. she's worried about the high income child benefit charge thing. could we save money if we got married? also is there some kind of marriage tax allowance she keeps mentioning?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm on student loan Plan 2 and also have a postgraduate loan. I earn \u00a352,000 from my main job and about \u00a38,000 from freelance web dev on the side. How do the student loan repayments work when you have self-employment income as well? Do I pay extra through self assessment?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm 68, retired, getting a state pension of \u00a311,500 and a small private pension of \u00a36,000. I've got about \u00a3180,000 in savings across Marcus, Nationwide and some NS&I bonds \u2014 earned roughly \u00a37,200 in interest last year. Also have some Vodafone and BP shares paying maybe \u00a31,100 in dividends. Is all of this going to push me into higher rate tax? What's my actual bill?",
+          "should_trigger": true,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "so I've been staking ETH on Lido since about March and I've accumulated roughly 0.8 ETH in rewards, plus I did maybe 15-20 swaps on Uniswap between various tokens. I also minted an NFT collection that completely flopped and I lost about \u00a32k on gas fees. My day job pays \u00a338k. what do I actually owe HMRC on all this crypto stuff??",
+          "should_trigger": true,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I just got my P60 from work showing I earned \u00a354,000 last year. My wife and I also rent out our old flat and made about \u00a38,200 profit. I have no idea whether my tax code is right \u2014 it says 1257L but I feel like I'm not paying enough tax on the rental income. Do I need to file a self assessment or does HMRC just sort it out?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I work for a FTSE 100 company and they offer a Share Incentive Plan. I've got about \u00a312,000 in free shares that have been in the plan for 4 years and I want to take them out to put a deposit on a house. My salary is \u00a345,000. What's the tax hit going to be if I withdraw them now vs waiting another year?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm building a React dashboard for my small business and need help setting up authentication with NextAuth.js. The app tracks invoices and expenses. Can you help me with the login flow?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm a landlord with 5 buy-to-let properties and I'm thinking about incorporating \u2014 moving them all into a limited company. What are the stamp duty implications and is the Section 162 incorporation relief still available?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Help me set up a budgeting spreadsheet in Google Sheets that automatically categorizes my bank transactions. I want columns for date, description, amount, and category, with some VLOOKUP formulas to auto-categorize based on merchant names",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Can you help me write a Python script to scrape property listings from Rightmove? I want to track rental prices in my area over time and store them in a PostgreSQL database",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "My company is offering me a choice between a \u00a35,000 cash bonus or \u00a35,000 in share options (EMI scheme). I earn \u00a355,000. Which is better from a tax perspective? I know EMI has some special CGT treatment",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm a contractor working through an IR35 arrangement \u2014 my client has determined I'm inside IR35. How does the deemed employment payment work and what can I still claim as expenses through my PSC?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "test_passed": 4,
+      "test_failed": 4,
+      "test_total": 8,
+      "test_results": [
+        {
+          "query": "I started selling homemade candles on Etsy in October, made about \u00a3900 in sales but honestly spent way more than that on wax, wicks, packaging and a market stall. I work full time earning \u00a337,000. do I even need to tell HMRC about this? feels like it's barely a business at this point",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "my salary just went up to \u00a3108,000 and my colleague mentioned something about a '60% tax trap'?? I also get child benefit for 2 kids. should I be panicking? what can I actually do about this \u2014 someone said something about putting more into my pension but I don't really understand how that helps",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "Hi, I'm a freelance graphic designer and I also work part-time at Tesco (about \u00a316k). My freelance income was around \u00a322,000 this year but I spent a LOT on a new Mac, Adobe subscriptions, a desk and chair for my home office (spare room in my rented house). I think I might have actually made a loss when you add it all up. Can I use that loss to get some of my Tesco tax back?",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I've maxed out my ISA this year (\u00a320k into a stocks & shares ISA) and I still have about \u00a330k sitting in a general investment account earning dividends and growth. my salary is \u00a372,000. Someone mentioned a 'bed and ISA' strategy \u2014 is that worth doing? How does it work with capital gains?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I need help with my VAT return \u2014 I run a small e-commerce business selling to customers in the EU and I'm confused about the One Stop Shop scheme. Do I charge UK VAT or the customer's country's VAT rate?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I want to set up a limited company in the UK \u2014 should I go with Companies House directly or use a formation agent? What are the differences between a sole trader and an Ltd for tax purposes? I'm thinking about corporation tax rates",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm trying to understand how the US tax system works \u2014 I'm an American expat living in London and I need to file my US federal return. What forms do I need for the Foreign Earned Income Exclusion?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Can you explain how inheritance tax works in the UK? My mum passed away and left her house to me and my sister. The house is worth about \u00a3450,000 and she had about \u00a3100,000 in savings. Do we need to pay IHT?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "passed": 8,
+      "failed": 4,
+      "total": 12,
+      "results": [
+        {
+          "query": "my partner and I aren't married but we live together. she earns \u00a395k and I earn \u00a322k. we have a baby and she claims child benefit. she's worried about the high income child benefit charge thing. could we save money if we got married? also is there some kind of marriage tax allowance she keeps mentioning?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm on student loan Plan 2 and also have a postgraduate loan. I earn \u00a352,000 from my main job and about \u00a38,000 from freelance web dev on the side. How do the student loan repayments work when you have self-employment income as well? Do I pay extra through self assessment?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm 68, retired, getting a state pension of \u00a311,500 and a small private pension of \u00a36,000. I've got about \u00a3180,000 in savings across Marcus, Nationwide and some NS&I bonds \u2014 earned roughly \u00a37,200 in interest last year. Also have some Vodafone and BP shares paying maybe \u00a31,100 in dividends. Is all of this going to push me into higher rate tax? What's my actual bill?",
+          "should_trigger": true,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "so I've been staking ETH on Lido since about March and I've accumulated roughly 0.8 ETH in rewards, plus I did maybe 15-20 swaps on Uniswap between various tokens. I also minted an NFT collection that completely flopped and I lost about \u00a32k on gas fees. My day job pays \u00a338k. what do I actually owe HMRC on all this crypto stuff??",
+          "should_trigger": true,
+          "trigger_rate": 0.6666666666666666,
+          "triggers": 2,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I just got my P60 from work showing I earned \u00a354,000 last year. My wife and I also rent out our old flat and made about \u00a38,200 profit. I have no idea whether my tax code is right \u2014 it says 1257L but I feel like I'm not paying enough tax on the rental income. Do I need to file a self assessment or does HMRC just sort it out?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I work for a FTSE 100 company and they offer a Share Incentive Plan. I've got about \u00a312,000 in free shares that have been in the plan for 4 years and I want to take them out to put a deposit on a house. My salary is \u00a345,000. What's the tax hit going to be if I withdraw them now vs waiting another year?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm building a React dashboard for my small business and need help setting up authentication with NextAuth.js. The app tracks invoices and expenses. Can you help me with the login flow?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm a landlord with 5 buy-to-let properties and I'm thinking about incorporating \u2014 moving them all into a limited company. What are the stamp duty implications and is the Section 162 incorporation relief still available?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Help me set up a budgeting spreadsheet in Google Sheets that automatically categorizes my bank transactions. I want columns for date, description, amount, and category, with some VLOOKUP formulas to auto-categorize based on merchant names",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Can you help me write a Python script to scrape property listings from Rightmove? I want to track rental prices in my area over time and store them in a PostgreSQL database",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "My company is offering me a choice between a \u00a35,000 cash bonus or \u00a35,000 in share options (EMI scheme). I earn \u00a355,000. Which is better from a tax perspective? I know EMI has some special CGT treatment",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm a contractor working through an IR35 arrangement \u2014 my client has determined I'm inside IR35. How does the deemed employment payment work and what can I still claim as expenses through my PSC?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "iteration": 4,
+      "description": "Use this skill as the default entry point whenever someone asks a UK tax question about their personal finances. If a person mentions pounds (\u00a3), HMRC, PAYE, tax codes, P60, or describes income in a UK context \u2014 use this skill. It covers: working out tax owed on any combination of income (salary, freelance, rental, pensions, dividends, savings, crypto, shares); whether someone needs to file a tax return; child benefit charge; marriage allowance; student loan repayments through tax; share scheme withdrawals; retirement income tax; and tax code queries. The trigger is someone trying to understand their UK tax position or obligations \u2014 not someone asking for code, spreadsheets, business structure advice, IR35 determinations, or comparing compensation packages strategically.",
+      "train_passed": 6,
+      "train_failed": 6,
+      "train_total": 12,
+      "train_results": [
+        {
+          "query": "I work for a FTSE 100 company and they offer a Share Incentive Plan. I've got about \u00a312,000 in free shares that have been in the plan for 4 years and I want to take them out to put a deposit on a house. My salary is \u00a345,000. What's the tax hit going to be if I withdraw them now vs waiting another year?",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm on student loan Plan 2 and also have a postgraduate loan. I earn \u00a352,000 from my main job and about \u00a38,000 from freelance web dev on the side. How do the student loan repayments work when you have self-employment income as well? Do I pay extra through self assessment?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "my partner and I aren't married but we live together. she earns \u00a395k and I earn \u00a322k. we have a baby and she claims child benefit. she's worried about the high income child benefit charge thing. could we save money if we got married? also is there some kind of marriage tax allowance she keeps mentioning?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm 68, retired, getting a state pension of \u00a311,500 and a small private pension of \u00a36,000. I've got about \u00a3180,000 in savings across Marcus, Nationwide and some NS&I bonds \u2014 earned roughly \u00a37,200 in interest last year. Also have some Vodafone and BP shares paying maybe \u00a31,100 in dividends. Is all of this going to push me into higher rate tax? What's my actual bill?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I just got my P60 from work showing I earned \u00a354,000 last year. My wife and I also rent out our old flat and made about \u00a38,200 profit. I have no idea whether my tax code is right \u2014 it says 1257L but I feel like I'm not paying enough tax on the rental income. Do I need to file a self assessment or does HMRC just sort it out?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "so I've been staking ETH on Lido since about March and I've accumulated roughly 0.8 ETH in rewards, plus I did maybe 15-20 swaps on Uniswap between various tokens. I also minted an NFT collection that completely flopped and I lost about \u00a32k on gas fees. My day job pays \u00a338k. what do I actually owe HMRC on all this crypto stuff??",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm a landlord with 5 buy-to-let properties and I'm thinking about incorporating \u2014 moving them all into a limited company. What are the stamp duty implications and is the Section 162 incorporation relief still available?",
+          "should_trigger": false,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm building a React dashboard for my small business and need help setting up authentication with NextAuth.js. The app tracks invoices and expenses. Can you help me with the login flow?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Can you help me write a Python script to scrape property listings from Rightmove? I want to track rental prices in my area over time and store them in a PostgreSQL database",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm a contractor working through an IR35 arrangement \u2014 my client has determined I'm inside IR35. How does the deemed employment payment work and what can I still claim as expenses through my PSC?",
+          "should_trigger": false,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "My company is offering me a choice between a \u00a35,000 cash bonus or \u00a35,000 in share options (EMI scheme). I earn \u00a355,000. Which is better from a tax perspective? I know EMI has some special CGT treatment",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Help me set up a budgeting spreadsheet in Google Sheets that automatically categorizes my bank transactions. I want columns for date, description, amount, and category, with some VLOOKUP formulas to auto-categorize based on merchant names",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "test_passed": 4,
+      "test_failed": 4,
+      "test_total": 8,
+      "test_results": [
+        {
+          "query": "I started selling homemade candles on Etsy in October, made about \u00a3900 in sales but honestly spent way more than that on wax, wicks, packaging and a market stall. I work full time earning \u00a337,000. do I even need to tell HMRC about this? feels like it's barely a business at this point",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "my salary just went up to \u00a3108,000 and my colleague mentioned something about a '60% tax trap'?? I also get child benefit for 2 kids. should I be panicking? what can I actually do about this \u2014 someone said something about putting more into my pension but I don't really understand how that helps",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "Hi, I'm a freelance graphic designer and I also work part-time at Tesco (about \u00a316k). My freelance income was around \u00a322,000 this year but I spent a LOT on a new Mac, Adobe subscriptions, a desk and chair for my home office (spare room in my rented house). I think I might have actually made a loss when you add it all up. Can I use that loss to get some of my Tesco tax back?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I've maxed out my ISA this year (\u00a320k into a stocks & shares ISA) and I still have about \u00a330k sitting in a general investment account earning dividends and growth. my salary is \u00a372,000. Someone mentioned a 'bed and ISA' strategy \u2014 is that worth doing? How does it work with capital gains?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm trying to understand how the US tax system works \u2014 I'm an American expat living in London and I need to file my US federal return. What forms do I need for the Foreign Earned Income Exclusion?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I need help with my VAT return \u2014 I run a small e-commerce business selling to customers in the EU and I'm confused about the One Stop Shop scheme. Do I charge UK VAT or the customer's country's VAT rate?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I want to set up a limited company in the UK \u2014 should I go with Companies House directly or use a formation agent? What are the differences between a sole trader and an Ltd for tax purposes? I'm thinking about corporation tax rates",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Can you explain how inheritance tax works in the UK? My mum passed away and left her house to me and my sister. The house is worth about \u00a3450,000 and she had about \u00a3100,000 in savings. Do we need to pay IHT?",
+          "should_trigger": false,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "passed": 6,
+      "failed": 6,
+      "total": 12,
+      "results": [
+        {
+          "query": "I work for a FTSE 100 company and they offer a Share Incentive Plan. I've got about \u00a312,000 in free shares that have been in the plan for 4 years and I want to take them out to put a deposit on a house. My salary is \u00a345,000. What's the tax hit going to be if I withdraw them now vs waiting another year?",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm on student loan Plan 2 and also have a postgraduate loan. I earn \u00a352,000 from my main job and about \u00a38,000 from freelance web dev on the side. How do the student loan repayments work when you have self-employment income as well? Do I pay extra through self assessment?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "my partner and I aren't married but we live together. she earns \u00a395k and I earn \u00a322k. we have a baby and she claims child benefit. she's worried about the high income child benefit charge thing. could we save money if we got married? also is there some kind of marriage tax allowance she keeps mentioning?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm 68, retired, getting a state pension of \u00a311,500 and a small private pension of \u00a36,000. I've got about \u00a3180,000 in savings across Marcus, Nationwide and some NS&I bonds \u2014 earned roughly \u00a37,200 in interest last year. Also have some Vodafone and BP shares paying maybe \u00a31,100 in dividends. Is all of this going to push me into higher rate tax? What's my actual bill?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I just got my P60 from work showing I earned \u00a354,000 last year. My wife and I also rent out our old flat and made about \u00a38,200 profit. I have no idea whether my tax code is right \u2014 it says 1257L but I feel like I'm not paying enough tax on the rental income. Do I need to file a self assessment or does HMRC just sort it out?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "so I've been staking ETH on Lido since about March and I've accumulated roughly 0.8 ETH in rewards, plus I did maybe 15-20 swaps on Uniswap between various tokens. I also minted an NFT collection that completely flopped and I lost about \u00a32k on gas fees. My day job pays \u00a338k. what do I actually owe HMRC on all this crypto stuff??",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm a landlord with 5 buy-to-let properties and I'm thinking about incorporating \u2014 moving them all into a limited company. What are the stamp duty implications and is the Section 162 incorporation relief still available?",
+          "should_trigger": false,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm building a React dashboard for my small business and need help setting up authentication with NextAuth.js. The app tracks invoices and expenses. Can you help me with the login flow?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Can you help me write a Python script to scrape property listings from Rightmove? I want to track rental prices in my area over time and store them in a PostgreSQL database",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm a contractor working through an IR35 arrangement \u2014 my client has determined I'm inside IR35. How does the deemed employment payment work and what can I still claim as expenses through my PSC?",
+          "should_trigger": false,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "My company is offering me a choice between a \u00a35,000 cash bonus or \u00a35,000 in share options (EMI scheme). I earn \u00a355,000. Which is better from a tax perspective? I know EMI has some special CGT treatment",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Help me set up a budgeting spreadsheet in Google Sheets that automatically categorizes my bank transactions. I want columns for date, description, amount, and category, with some VLOOKUP formulas to auto-categorize based on merchant names",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "iteration": 5,
+      "description": "Use this skill whenever someone shares personal financial details in pounds (\u00a3) and wants to understand their UK tax situation. The trigger pattern is simple: a real person describing their income, earnings, or financial circumstances and asking what tax they owe, whether something is taxable, or what to do about it. This includes ANY combination of: salary, freelance income, rental profits, pensions, state pension, savings interest, dividends, share schemes (SIP/SAYE), crypto gains, student loan repayments, child benefit charges, marriage allowance, P60 or tax code concerns. If someone gives you numbers and asks a UK tax question \u2014 use this skill. Do NOT use for: writing code, building spreadsheets, business incorporation advice, IR35 determinations, or strategic compensation comparisons.",
+      "train_passed": 6,
+      "train_failed": 6,
+      "train_total": 12,
+      "train_results": [
+        {
+          "query": "I'm on student loan Plan 2 and also have a postgraduate loan. I earn \u00a352,000 from my main job and about \u00a38,000 from freelance web dev on the side. How do the student loan repayments work when you have self-employment income as well? Do I pay extra through self assessment?",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm 68, retired, getting a state pension of \u00a311,500 and a small private pension of \u00a36,000. I've got about \u00a3180,000 in savings across Marcus, Nationwide and some NS&I bonds \u2014 earned roughly \u00a37,200 in interest last year. Also have some Vodafone and BP shares paying maybe \u00a31,100 in dividends. Is all of this going to push me into higher rate tax? What's my actual bill?",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "my partner and I aren't married but we live together. she earns \u00a395k and I earn \u00a322k. we have a baby and she claims child benefit. she's worried about the high income child benefit charge thing. could we save money if we got married? also is there some kind of marriage tax allowance she keeps mentioning?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I work for a FTSE 100 company and they offer a Share Incentive Plan. I've got about \u00a312,000 in free shares that have been in the plan for 4 years and I want to take them out to put a deposit on a house. My salary is \u00a345,000. What's the tax hit going to be if I withdraw them now vs waiting another year?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I just got my P60 from work showing I earned \u00a354,000 last year. My wife and I also rent out our old flat and made about \u00a38,200 profit. I have no idea whether my tax code is right \u2014 it says 1257L but I feel like I'm not paying enough tax on the rental income. Do I need to file a self assessment or does HMRC just sort it out?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "so I've been staking ETH on Lido since about March and I've accumulated roughly 0.8 ETH in rewards, plus I did maybe 15-20 swaps on Uniswap between various tokens. I also minted an NFT collection that completely flopped and I lost about \u00a32k on gas fees. My day job pays \u00a338k. what do I actually owe HMRC on all this crypto stuff??",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm building a React dashboard for my small business and need help setting up authentication with NextAuth.js. The app tracks invoices and expenses. Can you help me with the login flow?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm a landlord with 5 buy-to-let properties and I'm thinking about incorporating \u2014 moving them all into a limited company. What are the stamp duty implications and is the Section 162 incorporation relief still available?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Can you help me write a Python script to scrape property listings from Rightmove? I want to track rental prices in my area over time and store them in a PostgreSQL database",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "My company is offering me a choice between a \u00a35,000 cash bonus or \u00a35,000 in share options (EMI scheme). I earn \u00a355,000. Which is better from a tax perspective? I know EMI has some special CGT treatment",
+          "should_trigger": false,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm a contractor working through an IR35 arrangement \u2014 my client has determined I'm inside IR35. How does the deemed employment payment work and what can I still claim as expenses through my PSC?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Help me set up a budgeting spreadsheet in Google Sheets that automatically categorizes my bank transactions. I want columns for date, description, amount, and category, with some VLOOKUP formulas to auto-categorize based on merchant names",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "test_passed": 4,
+      "test_failed": 4,
+      "test_total": 8,
+      "test_results": [
+        {
+          "query": "I started selling homemade candles on Etsy in October, made about \u00a3900 in sales but honestly spent way more than that on wax, wicks, packaging and a market stall. I work full time earning \u00a337,000. do I even need to tell HMRC about this? feels like it's barely a business at this point",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "my salary just went up to \u00a3108,000 and my colleague mentioned something about a '60% tax trap'?? I also get child benefit for 2 kids. should I be panicking? what can I actually do about this \u2014 someone said something about putting more into my pension but I don't really understand how that helps",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "Hi, I'm a freelance graphic designer and I also work part-time at Tesco (about \u00a316k). My freelance income was around \u00a322,000 this year but I spent a LOT on a new Mac, Adobe subscriptions, a desk and chair for my home office (spare room in my rented house). I think I might have actually made a loss when you add it all up. Can I use that loss to get some of my Tesco tax back?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I've maxed out my ISA this year (\u00a320k into a stocks & shares ISA) and I still have about \u00a330k sitting in a general investment account earning dividends and growth. my salary is \u00a372,000. Someone mentioned a 'bed and ISA' strategy \u2014 is that worth doing? How does it work with capital gains?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I need help with my VAT return \u2014 I run a small e-commerce business selling to customers in the EU and I'm confused about the One Stop Shop scheme. Do I charge UK VAT or the customer's country's VAT rate?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm trying to understand how the US tax system works \u2014 I'm an American expat living in London and I need to file my US federal return. What forms do I need for the Foreign Earned Income Exclusion?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I want to set up a limited company in the UK \u2014 should I go with Companies House directly or use a formation agent? What are the differences between a sole trader and an Ltd for tax purposes? I'm thinking about corporation tax rates",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Can you explain how inheritance tax works in the UK? My mum passed away and left her house to me and my sister. The house is worth about \u00a3450,000 and she had about \u00a3100,000 in savings. Do we need to pay IHT?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ],
+      "passed": 6,
+      "failed": 6,
+      "total": 12,
+      "results": [
+        {
+          "query": "I'm on student loan Plan 2 and also have a postgraduate loan. I earn \u00a352,000 from my main job and about \u00a38,000 from freelance web dev on the side. How do the student loan repayments work when you have self-employment income as well? Do I pay extra through self assessment?",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm 68, retired, getting a state pension of \u00a311,500 and a small private pension of \u00a36,000. I've got about \u00a3180,000 in savings across Marcus, Nationwide and some NS&I bonds \u2014 earned roughly \u00a37,200 in interest last year. Also have some Vodafone and BP shares paying maybe \u00a31,100 in dividends. Is all of this going to push me into higher rate tax? What's my actual bill?",
+          "should_trigger": true,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "my partner and I aren't married but we live together. she earns \u00a395k and I earn \u00a322k. we have a baby and she claims child benefit. she's worried about the high income child benefit charge thing. could we save money if we got married? also is there some kind of marriage tax allowance she keeps mentioning?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I work for a FTSE 100 company and they offer a Share Incentive Plan. I've got about \u00a312,000 in free shares that have been in the plan for 4 years and I want to take them out to put a deposit on a house. My salary is \u00a345,000. What's the tax hit going to be if I withdraw them now vs waiting another year?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I just got my P60 from work showing I earned \u00a354,000 last year. My wife and I also rent out our old flat and made about \u00a38,200 profit. I have no idea whether my tax code is right \u2014 it says 1257L but I feel like I'm not paying enough tax on the rental income. Do I need to file a self assessment or does HMRC just sort it out?",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "so I've been staking ETH on Lido since about March and I've accumulated roughly 0.8 ETH in rewards, plus I did maybe 15-20 swaps on Uniswap between various tokens. I also minted an NFT collection that completely flopped and I lost about \u00a32k on gas fees. My day job pays \u00a338k. what do I actually owe HMRC on all this crypto stuff??",
+          "should_trigger": true,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": false
+        },
+        {
+          "query": "I'm building a React dashboard for my small business and need help setting up authentication with NextAuth.js. The app tracks invoices and expenses. Can you help me with the login flow?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm a landlord with 5 buy-to-let properties and I'm thinking about incorporating \u2014 moving them all into a limited company. What are the stamp duty implications and is the Section 162 incorporation relief still available?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Can you help me write a Python script to scrape property listings from Rightmove? I want to track rental prices in my area over time and store them in a PostgreSQL database",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "My company is offering me a choice between a \u00a35,000 cash bonus or \u00a35,000 in share options (EMI scheme). I earn \u00a355,000. Which is better from a tax perspective? I know EMI has some special CGT treatment",
+          "should_trigger": false,
+          "trigger_rate": 0.3333333333333333,
+          "triggers": 1,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "I'm a contractor working through an IR35 arrangement \u2014 my client has determined I'm inside IR35. How does the deemed employment payment work and what can I still claim as expenses through my PSC?",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        },
+        {
+          "query": "Help me set up a budgeting spreadsheet in Google Sheets that automatically categorizes my bank transactions. I want columns for date, description, amount, and category, with some VLOOKUP formulas to auto-categorize based on merchant names",
+          "should_trigger": false,
+          "trigger_rate": 0.0,
+          "triggers": 0,
+          "runs": 3,
+          "pass": true
+        }
+      ]
+    }
+  ]
+}
